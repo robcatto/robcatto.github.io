@@ -2,14 +2,18 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6794554/669188/css/fonts.css" />
+
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6794554/773588/css/fonts.css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 </head>
 <body>
+
 <nav>
 <section>
+
 <div class="header__desktop">
 	<svg class="header__logo" width="186px" height="22px" viewBox="0 0 186 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
@@ -36,25 +40,29 @@
 		<a class="nav__anchor">Resorts</a>
 	</li>
 	<li class="nav__item">
-		<a class="nav__anchor">FAQ</a>
+		<a class="nav__anchor promo__button">Get Started</a>
 	</li>
 </ul>
 </div>
-<div id="mobile-nav-toggle">
-        <a href="#" id="nav-toggle" data-nav-toggle="">
-          <span class="hamburger"></span>
-        </a>
-      </div>
+<div class="item">
+          <button class="cmn-toggle-switch cmn-toggle-switch__htx" onclick="">
+            <span>toggle menu</span>
+          </button>
+        </div>
+
 </section>
+<div class="nav-list"></div>
 </nav>
 
 <div class="container">
 
 
 <div id="headerarea">
-<div>
+<div class="header__logo--wrap">
 	<div class="mobile__logos--left"></div>
 	<div class="mobile__logos--right"></div>
+	<div class="desktop__logos--left"></div>
+	<div class="desktop__logos--right"></div>
 </div>
 
 	<section>
@@ -80,6 +88,28 @@
 	</div>
 </div>
 </div>
-</div>
+
+<!-- Javascript -->
+
+<script>
+function toggleClass(el){
+	if(.className == "class1"){
+		el.className = "class2";
+	} else {
+		el.className = "class1";
+	}
+}
+</script>
+
+<script src="js/demo/demo.js"></script>
+<script>
+    $(".cmn-toggle-switch").on("click", function() {
+      $(".container").addClass("active");
+      $("nav").addClass("active");
+     
+    });
+
+</script>
 </body>
+
 </html>

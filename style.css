@@ -524,6 +524,39 @@ p {
   	padding-top: 31px;
 }
 
+
+/**
+* @file
+* Font face declarations for Typography.com hosted fonts
+*/
+ 
+/* replace this URL, it will be specific to each project */
+@import "//cloud.typography.com/6794554/773588/css/fonts.css";
+ 
+/* Gotham Bold */
+@font-face {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+/* Gotham Book */
+@font-face {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: 400;
+}
+ 
+/* Gotham Medium */
+@font-face {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+
 /* My Grid
    ========================================================================== */
 
@@ -560,6 +593,10 @@ p {
 .main__nav li {
   width: 100%;
   background: #2BA6E0;
+}
+
+.promo__button {
+  color: #EFB500 !important;
 }
 
 .main__nav a {
@@ -645,6 +682,20 @@ p {
 
 }
 
+
+.nav-list {
+    position: absolute;
+  top: 0;
+  right: -270px;
+  box-shadow: 50px 0 0 #384047;
+  background-color: #384047;
+  width: 270px;
+  height: 100vh;
+  padding-top: 52px;
+  z-index: 0;
+}
+
+
 nav {
 	
   position: relative;
@@ -660,6 +711,13 @@ nav {
   height: 52px;
   box-sizing: border-box;
   z-index: 9500
+}
+
+nav.active {
+  -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        transform: translateX(-270px);
+
 }
 
 #mobile-nav-toggle {
@@ -701,7 +759,11 @@ nav>section {
   margin-top: 52px;
 }
 
-#sectionarea {
+.header__logo--wrap {
+    position: relative;
+  top: -83px;
+  margin: 0 auto;
+  max-width: 1110px;
 
 }
 
@@ -709,36 +771,48 @@ nav>section {
   float: left;
   position: absolute;
   background-image: url(images/mobile__header--logo--left.svg);
-  height: 169px;
-  width: 141px;
+     height: 188px;
+  width: 142px;
   background-size: contain;
-  top: 10px;
+  top: 8px;
   background-repeat: no-repeat;
 }
 .mobile__logos--right {
   float: right;
   background-image: url(images/mobile__header--logo--right.svg);
   position: absolute;
-  height: 169px;
-  width: 141px;
+    height: 188px;
+  width: 146px;
   background-size: contain;
-  top: 10px;
+  top: 8px;
   background-repeat: no-repeat;
-  position: absolute;
-  height: 169px;
-  width: 141px;
-  background-size: contain;
-  top: 11px;
   right: 0;
-  background-repeat: no-repeat;
 }
-.desktop__logos--left {
-float: left;
 
+.desktop__logos--left {
+  float: left;
+  position: absolute;
+  background-image: url(images/desktop__header--logo--left.svg);
+    height: 188px;
+  width: 248px;
+  background-size: contain;
+  top: 8px;
+  background-repeat: no-repeat;
+  display: none;
 }
 .desktop__logos--right {
-float: right;
+  float: right;
+  background-image: url(images/desktop__header--logo--right.svg);
+  position: absolute;
+    height: 188px;
+  width: 248px;
+  background-size: contain;
+  top: 8px;
+  background-repeat: no-repeat;
+  right: 0;
+  display: none;
 }
+
 
 .hamburger {
 	position: relative;
@@ -779,6 +853,317 @@ float: right;
 }
 
 
+/* =============================================================================
+  DEMO STUFF
+============================================================================= */
+
+
+.items {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.item {
+  margin: 0px;
+}
+
+/* =============================================================================
+  MENU TOGGLE SWITCHES
+============================================================================= */
+/**
+ * Toggle Switch Globals
+ *
+ * All switches should take on the class `cmn-toggle-switch` as well as their
+ * variant that will give them unique properties. This class is an overview
+ * class that acts as a reset for all versions of the icon.
+ */
+.cmn-toggle-switch {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 43px;
+  height: 51px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  float: right;
+}
+
+.cmn-toggle-switch:focus {
+  outline: none;
+}
+
+.cmn-toggle-switch span {
+    display: block;
+  position: absolute;
+  top: 24px;
+  left: 18px;
+  right: 18px;
+  height: 6px;
+  background: white;
+  background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+}
+
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+  content: "";
+  background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+}
+
+.cmn-toggle-switch span::before {
+  top: -6px;
+}
+
+.cmn-toggle-switch span::after {
+  bottom: -6px;
+}
+
+/**
+ * Style 1
+ *
+ * Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
+ * Nothing too fancy, simple transition.
+ */
+.cmn-toggle-switch__rot {
+  background-color: #28aadc;
+}
+
+.cmn-toggle-switch__rot span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__rot.active {
+  background-color: #166888;
+}
+
+.cmn-toggle-switch__rot.active span {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/**
+ * Style 2
+ * 
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.cmn-toggle-switch__htx {
+  background-color: white;
+}
+
+.cmn-toggle-switch__htx span {
+  -webkit-transition: background 0s 0.3s;
+          transition: background 0s 0.3s;
+}
+
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-duration: 0.3s, 0.3s;
+          transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0s;
+          transition-delay: 0.3s, 0s;
+}
+
+.cmn-toggle-switch__htx span::before {
+  -webkit-transition-property: top, -webkit-transform;
+          transition-property: top, transform;
+}
+
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-property: bottom, -webkit-transform;
+          transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htx.active {
+  background-color: white;
+}
+
+.cmn-toggle-switch__htx.active span {
+  background: none;
+}
+
+.cmn-toggle-switch__htx.active span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.cmn-toggle-switch__htx.active span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after {
+  -webkit-transition-delay: 0s, 0.3s;
+          transition-delay: 0s, 0.3s;
+}
+
+/**
+ * Style 3
+ *
+ * Hamburger to left-arrow (htla). Hamburger menu transforms to a left-pointing
+ * arrow. Usually indicates an off canvas menu sliding in from left that
+ * will be close on re-click of the icon.
+ */
+.cmn-toggle-switch__htla {
+  background-color: #32dc64;
+}
+
+.cmn-toggle-switch__htla span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.cmn-toggle-switch__htla span::before {
+  -webkit-transform-origin: top right;
+      -ms-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+          transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.cmn-toggle-switch__htla span::after {
+  -webkit-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+          transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htla.active {
+  background-color: #18903c;
+}
+
+.cmn-toggle-switch__htla.active span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.cmn-toggle-switch__htla.active span::before,
+.cmn-toggle-switch__htla.active span::after {
+  width: 50%;
+}
+
+.cmn-toggle-switch__htla.active span::before {
+  top: 0;
+  -webkit-transform: translateX(42px) translateY(3px) rotate(45deg);
+      -ms-transform: translateX(42px) translateY(3px) rotate(45deg);
+          transform: translateX(42px) translateY(3px) rotate(45deg);
+}
+
+.cmn-toggle-switch__htla.active span::after {
+  bottom: 0;
+  -webkit-transform: translateX(42px) translateY(-3px) rotate(-45deg);
+      -ms-transform: translateX(42px) translateY(-3px) rotate(-45deg);
+          transform: translateX(42px) translateY(-3px) rotate(-45deg);
+}
+
+/**
+ * Style 4
+ *
+ * Hamburger to right-arrow (htra). Hamburger menu transforms to a
+ * right-pointing arrow. Usually indicates an off canvas menu sliding in from 
+ * right that will be close on re-click of the icon.
+ */
+.cmn-toggle-switch__htra {
+  background-color: #ff9650;
+}
+
+.cmn-toggle-switch__htra span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.cmn-toggle-switch__htra span::before {
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+          transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.cmn-toggle-switch__htra span::after {
+  -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+          transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htra.active {
+  background-color: #e95d00;
+}
+
+.cmn-toggle-switch__htra.active span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.cmn-toggle-switch__htra.active span::before,
+.cmn-toggle-switch__htra.active span::after {
+  width: 50%;
+}
+
+.cmn-toggle-switch__htra.active span::before {
+  top: 0;
+  -webkit-transform: translateX(-6px) translateY(3px) rotate(-45deg);
+      -ms-transform: translateX(-6px) translateY(3px) rotate(-45deg);
+          transform: translateX(-6px) translateY(3px) rotate(-45deg);
+}
+
+.cmn-toggle-switch__htra.active span::after {
+  bottom: 0;
+  -webkit-transform: translateX(-6px) translateY(-3px) rotate(45deg);
+      -ms-transform: translateX(-6px) translateY(-3px) rotate(45deg);
+          transform: translateX(-6px) translateY(-3px) rotate(45deg);
+}
+
+
+
 /* Page Container
    ========================================================================== */
 
@@ -797,6 +1182,14 @@ float: right;
   position: relative;
   width: 100%;
   background: #edeff0;
+    -webkit-transition: border-color 200ms ease-in-out,-webkit-transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
+  transition: border-color 200ms ease-in-out,transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
+}
+
+.container:active {
+  -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        transform: translateX(-270px);
 }
 
 
@@ -951,13 +1344,27 @@ Media Queries
 }
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
+  nav { height: 80px;}
+  h1 {font-size: 38px;}
+  h3 {font-size: 26px; padding-top: 51px;}
+  #mobile-nav-toggle {display: none;}
+  .cmn-toggle-switch {display: none;}
+  .nav__list {float: right; margin-top: 33px; display: block}
+  .nav__anchor {-webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded"}
+  .nav__item { float: left; font-size: 15px; margin-left: 40px; }
+    #headerarea {padding: 83px 0px; margin-top: 80px;}
   .nav__item--home {display: none;}
+  .header__logo {    width: 162px; margin-top: 0px; top: 27px;}
   .card {width: 49%; float: left; margin-right: 2%}
     .card:nth-child(2n+0) {margin-right: 0px;}
   #cardarea__wrap {width: 94%; margin: 0 auto;}
   #slideshow-area {height: 187px; background-position-y: -80px;}
    .card__image {height: 208px;}
   .card {height: 242px;}
+  .mobile__logos--left {display: none;}
+  .mobile__logos--right {display: none;}
+  .desktop__logos--left {display: block; left: -38px;}
+  .desktop__logos--right {display: block; right: -36px;}
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
@@ -965,10 +1372,11 @@ Media Queries
 	h1 {font-size: 38px;}
 	h3 {font-size: 26px; padding-top: 51px;}
 	#mobile-nav-toggle {display: none;}
+  .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
   .nav__anchor {-webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded"}
-  .nav__item { float: left; font-size: 14px; margin-left: 40px; }
-  #headerarea {padding: 83px 0px; margin-top: 81px;}
+  .nav__item { float: left; font-size: 15px; margin-left: 40px; }
+  #headerarea {padding: 83px 0px; margin-top: 80px;}
   .header__desktop {display: block; height: 80px;}
   .header__logo {    width: 162px; margin-top: 0px; top: 27px;}
   .header__logo:hover { fill: #EFB500;}
@@ -984,6 +1392,11 @@ Media Queries
   .main__nav {display: none;}
   .card__image {height: 178px;}
   .card {height: 212px;}
+  .mobile__logos--left {display: none;}
+  .mobile__logos--right {display: none;}
+  .desktop__logos--left {display: block; right: 0px;}
+  .desktop__logos--right {display: block; left: 0px;}
+
 
 
 
