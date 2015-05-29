@@ -496,14 +496,14 @@ body {
 
 h1 {
 	font-size: 24px;
-	font-family: "Gotham Rounded";
+	font-family: "Gotham Rounded A";
 	position: relative;
 	z-index: 9000;
 }
 
 h3 {
 	  font-size: 21px;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   color: #485159;
   font-weight: 500;
   width: 89.61352657%;
@@ -514,7 +514,7 @@ h3 {
 
 p {
 	font-size: 18px;
-  	font-family: "Gotham Rounded";
+  	font-family: "Gotham Rounded A";
   	color: #656565;
   	font-weight: 400;
   	width: 89.61352657%;
@@ -535,21 +535,21 @@ p {
  
 /* Gotham Bold */
 @font-face {
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   font-style: normal;
   font-weight: 700;
 }
  
 /* Gotham Book */
 @font-face {
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   font-style: normal;
   font-weight: 400;
 }
  
 /* Gotham Medium */
 @font-face {
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   font-style: normal;
   font-weight: 500;
 }
@@ -753,7 +753,7 @@ nav>section {
   border-bottom: solid 1px #e9f0f3;
   text-align: center;
   padding: 81px 0;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   color: #384047;
   font-weight: 500;
   margin-top: 52px;
@@ -1242,7 +1242,7 @@ nav>section {
   top: 9px;
   width: 100%;
   font-size: 16px;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   font-weight: 500;
   color: #5a6772;
   text-align: center;
@@ -1324,7 +1324,7 @@ nav>section {
   padding: 20px 80px;
   font-size: 16px;
   color: #5a6772;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A";
   line-height: 1.4;
 }
 
@@ -1350,7 +1350,7 @@ Media Queries
   #mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
-  .nav__anchor {-webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded"}
+  .nav__anchor {-webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A"}
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
     #headerarea {padding: 83px 0px; margin-top: 80px;}
   .nav__item--home {display: none;}
@@ -1374,7 +1374,7 @@ Media Queries
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
-  .nav__anchor {-webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded"}
+  .nav__anchor {-webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A"}
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
   #headerarea {padding: 83px 0px; margin-top: 80px;}
   .header__desktop {display: block; height: 80px;}
