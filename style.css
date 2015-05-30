@@ -508,7 +508,7 @@ h3 {
   font-weight: 500;
   width: 86.61352657%;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 35px;
   line-height: 1.2;
 
 }
@@ -666,6 +666,11 @@ featuresmedia="screen"
     min-height: 1px;
     padding: 0 15px;
     position: relative;
+}
+
+.mobile_section {
+  border-bottom: 1px #e9f0f3 Solid;
+  padding-bottom: 35px;
 }
 
 
