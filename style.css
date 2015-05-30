@@ -658,8 +658,13 @@ featuresmedia="screen"
 }
   
    .onelarge {
-     width: 100%;
-     max-width: 657px;
+       border-radius: 5px;
+  background-color: #384047;
+  min-height: 178px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
   }
 
   .onelarge:after {
