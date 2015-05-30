@@ -464,7 +464,7 @@ a {
 
 ul, ol, dl {
   color: #8c989e;
-  font-size: inherit;
+
   line-height: 1.6;
   list-style-position: outside;
   margin: 0 0 30px 20px;
@@ -496,26 +496,26 @@ body {
 
 h1 {
 	font-size: 24px;
-	font-family: "Gotham Rounded";
+	font-family: "Gotham Rounded A", "Gotham Rounded B";
 	position: relative;
 	z-index: 9000;
 }
 
 h3 {
 	  font-size: 21px;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   color: #485159;
   font-weight: 500;
   width: 89.61352657%;
   margin: 0 auto;
   padding-top: 30px;
   line-height: 1.2;
-  
+
 }
 
 p {
 	font-size: 18px;
-  	font-family: "Gotham Rounded";
+  	font-family: "Gotham Rounded A", "Gotham Rounded B";
   	color: #656565;
   	font-weight: 400;
   	width: 89.61352657%;
@@ -630,9 +630,7 @@ p {
   cursor: pointer;
 }
 
-.nav__anchor:hover {
-    color: #657278;
-}
+
 
 
 .nav__anchor:hover, .nav__anchor:active, .nav__anchor:focus {
@@ -729,7 +727,7 @@ p {
   font-weight: 500;
   padding: 17px 0 16px 15px;
   margin-left: 7px;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
 }
 
 #mobile-nav-toggle {
@@ -765,7 +763,7 @@ p {
   border-bottom: solid 1px #e9f0f3;
   text-align: center;
   padding: 81px 0;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   color: #384047;
   font-weight: 500;
   margin-top: 52px;
@@ -1254,7 +1252,7 @@ p {
   top: 9px;
   width: 100%;
   font-size: 16px;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   font-weight: 500;
   color: #5a6772;
   text-align: center;
@@ -1336,7 +1334,7 @@ p {
   padding: 20px 80px;
   font-size: 16px;
   color: #5a6772;
-  font-family: "Gotham Rounded";
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   line-height: 1.4;
 }
 
@@ -1363,12 +1361,15 @@ Media Queries
 .nav__item:first-child a {
   margin-top: 0px;
 }
+.nav__anchor:hover {
+    color: #657278;
+}
   h1 {font-size: 38px;}
   h3 {font-size: 26px; padding-top: 51px;}
   #mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
-  .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded"}
+  .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A", "Gotham Rounded B"}
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
     #headerarea {padding: 83px 0px; margin-top: 80px;}
   .nav__item--home {display: none;}
@@ -1393,12 +1394,15 @@ Media Queries
 .nav__item:first-child a {
   margin-top: 0px;
 }
+.nav__anchor:hover {
+    color: #657278;
+}
 	h1 {font-size: 38px;}
 	h3 {font-size: 26px; padding-top: 51px;}
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
-  .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded"}
+  .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A", "Gotham Rounded B"}
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
   #headerarea {padding: 83px 0px; margin-top: 80px;}
   .header__desktop {display: block; height: 80px;}
