@@ -656,9 +656,15 @@ featuresmedia="screen"
   float: none;
   margin: 0 auto;
 }
+  
+   .onelarge {
+     width: 100%;
+     max-width: 657px;
+  }
 
-  .onelarge {
-
+  .onelarge:after {
+    content: "";
+    clear: both;
   }
 
     .column .columns {
