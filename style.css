@@ -671,6 +671,7 @@ featuresmedia="screen"
 .mobile_section {
   border-bottom: 1px #e9f0f3 Solid;
   padding-bottom: 35px;
+  overflow: auto;
 }
 
 .mobile_section:after {
