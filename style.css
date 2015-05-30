@@ -928,7 +928,7 @@ featuresmedia="screen"
      height: 188px;
   width: 142px;
   background-size: contain;
-  top: 8px;
+  top: 18px;
   background-repeat: no-repeat;
 }
 .mobile__logos--right {
@@ -938,7 +938,7 @@ featuresmedia="screen"
     height: 188px;
   width: 146px;
   background-size: contain;
-  top: 8px;
+  top: 18px;
   background-repeat: no-repeat;
   right: 0;
 }
