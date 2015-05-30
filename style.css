@@ -658,6 +658,8 @@ featuresmedia="screen"
 }
   
    .onelarge {
+   	width: 100%;
+     max-width: 657px;
        border-radius: 5px;
   background-color: #384047;
   min-height: 178px;
