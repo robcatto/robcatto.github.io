@@ -578,8 +578,14 @@ p {
   vertical-align: baseline;
   white-space: nowrap;
   background-color: transparent;
-  border: 2px solid #5fcf80;
-  color: #5fcf80;
+  border: 2px solid #FBCD27;
+  color: #FBCD27;
+}
+
+.button.primary {
+    background-color: #FBCD27;
+  border: 2px solid #FBCD27;
+  color: #384047;
 }
 
 .inverse {
@@ -590,9 +596,35 @@ p {
 
 .small {
     font-size: 12px;
+    font-weight: 600;
   height: 38px;
   line-height: 34px;
   padding: 0 26px;
+}
+
+.features-toggle {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+}
+
+.features-controller.index-action .features-toggle-anchor:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.features-controller.index-action .features-toggle-anchor:last-child {
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+}
+
+featuresmedia="screen"
+.features-controller .button.primary {
+  margin-top: 30px;
+}
+featuresmedia="screen"
+.features-controller.index-action .features-toggle-anchor {
+  font-size: 14px;
+  margin-right: 0;
 }
 
 
@@ -866,6 +898,8 @@ p {
   color: #384047;
   font-weight: 500;
   margin-top: 52px;
+  margin-bottom: 45px;
+  position: relative;
 }
 
 .header__logo--wrap {
@@ -1292,7 +1326,7 @@ p {
   
   position: relative;
   width: 100%;
-  background: #edeff0;
+  background: white;
     -webkit-transition: border-color 200ms ease-in-out,-webkit-transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
   transition: border-color 200ms ease-in-out,transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
 }
@@ -1484,7 +1518,7 @@ Media Queries
   .nav__list {float: right; margin-top: 33px; display: block}
   .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A", "Gotham Rounded B"}
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
-    #headerarea {padding: 83px 0px; margin-top: 80px;}
+    #headerarea {padding: 83px 0px; margin-top: 80px; margin-bottom: 25px;}
   .nav__item--home {display: none;}
   .header__logo {    width: 162px; margin-top: 0px; top: 25px;}
   .card {width: 49%; float: left; margin-right: 2%}
@@ -1523,7 +1557,7 @@ Media Queries
     color: #657278;
 }
 	h1 {font-size: 38px;}
-	h3 {font-size: 26px; padding-top: 51px;}
+	h3 {font-size: 26px; padding-top: 50px;}
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
