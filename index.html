@@ -4,14 +4,18 @@
 <head>
 
 <meta charset="UTF-8" />
-<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6794554/773588/css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6794554/799588/css/fonts.css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+
+
 
 </head>
 <body>
 
-<nav>
+<div id="nav">
 <section>
 
 <div class="header__desktop">
@@ -45,16 +49,37 @@
 </ul>
 </div>
 <div class="item">
-          <button class="cmn-toggle-switch cmn-toggle-switch__htx" onclick="">
+          <button class="cmn-toggle-switch cmn-toggle-switch__htx">
+
             <span>toggle menu</span>
           </button>
+           
         </div>
 
 </section>
-<div class="nav-list"></div>
-</nav>
+<div class="nav-list">
 
-<div class="container">
+<li class="nav__item">
+		<a class="nav__anchor">Home</a>
+	</li>
+
+	<li class="nav__item">
+		<a class="nav__anchor">Events</a>
+	</li>
+	<li class="nav__item">
+		<a class="nav__anchor">Stories</a>
+	</li>
+	<li class="nav__item">
+		<a class="nav__anchor">Racing</a>
+	</li>
+	<li class="nav__item">
+		<a class="nav__anchor">Resorts</a>
+	</li>
+
+</div>
+</div>
+
+<div id="container">
 
 
 <div id="headerarea">
@@ -92,24 +117,17 @@
 <!-- Javascript -->
 
 <script>
-function toggleClass(el){
-	if(.className == "class1"){
-		el.className = "class2";
-	} else {
-		el.className = "class1";
-	}
-}
+(function($) {
+$("#burger").click(function(){ 
+$("#container").toggleClass('container_open');
+});
 </script>
 
 <script src="js/demo/demo.js"></script>
-<script>
-    $(".cmn-toggle-switch").on("click", function() {
-      $(".container").addClass("active");
-      $("nav").addClass("active");
-     
-    });
 
-</script>
+
+
+
+
 </body>
-
 </html>

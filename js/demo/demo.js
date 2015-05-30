@@ -13,6 +13,22 @@
     toggle.addEventListener( "click", function(e) {
       e.preventDefault();
       (this.classList.contains("active") === true) ? this.classList.remove("active") : this.classList.add("active");
+      document.getElementById("nav").classList.toggle("container_open");
+      document.getElementById("container").classList.toggle("container_open");
+
+ 
+
+
+
+
+
+  
+     
+      
+      
+
+
+
     });
   }
 
