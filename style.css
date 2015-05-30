@@ -916,7 +916,6 @@ p {
   transition: background 0.3s;
   float: right;
   margin-top: 12px;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .cmn-toggle-switch:focus {
