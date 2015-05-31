@@ -809,6 +809,10 @@ footer {
   position: relative;
 }
 
+footer p {
+	margin-top: 15px;
+}
+
 
 
 footer:before {
