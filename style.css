@@ -713,15 +713,7 @@ featuresmedia="screen"
  clear: both;
 }
 
-.section_hasbg {
-background-color: #f6f9fa;
-  border-top: solid 1px #e9f0f3;
-  border-bottom: solid 1px #e9f0f3;
-}
 
-.section_hasbg p {
-  color: #8c989e;
-}
 
 footer {
   text-align: center;
