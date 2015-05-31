@@ -600,6 +600,11 @@ p {
   color: #657380;	
 }
 
+.dark:hover {
+	  border-color: #a9b3bb;
+  color: #5e6c77;
+}
+
 .small {
     font-size: 12px;
     font-weight: 600;
