@@ -809,6 +809,8 @@ footer {
   position: relative;
 }
 
+
+
 footer:before {
   width: 30px;
   height: 1px;
@@ -819,6 +821,18 @@ footer:before {
   content: " ";
   display: block;
   background-color: #eaedef;
+}
+
+.footer_heading {
+font-weight: 500;
+  color: #d3d9dd;
+  font-size: 24px;
+}
+
+.footer_subheading {
+font-weight: 500;
+  color: #d3d9dd;
+  font-size: 16px;
 }
 
 
