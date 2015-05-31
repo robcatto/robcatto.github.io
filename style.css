@@ -597,7 +597,8 @@ p {
 .dark {
   background-color: transparent;
   border: 2px solid #d4d9dd;
-  color: #657380;	
+  color: #657380;
+  margin: 25px 0px 20px 0px;
 }
 
 .dark:hover {
