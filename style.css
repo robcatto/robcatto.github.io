@@ -539,6 +539,15 @@ p {
   text-align: center;
 }
 
+.callout-card svg, .callout-card img {
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 .callout-card .button {
   position: absolute;
   bottom: 25px;
@@ -712,6 +721,8 @@ featuresmedia="screen"
  content: "";
  clear: both;
 }
+
+
 
 
 
