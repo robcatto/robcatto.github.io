@@ -516,7 +516,7 @@ h3 {
 p {
 	font-size: 18px;
   	font-family: "Gotham Rounded A", "Gotham Rounded B";
-  	color: #656565;
+  	color: #8c989e;
   	font-weight: 400;
   	width: 89.61352657%;
   	margin: 0 auto;
@@ -720,6 +720,12 @@ featuresmedia="screen"
 .mobile_section:after {
  content: "";
  clear: both;
+}
+
+.section_hasbg {
+	background-color: #f6f9fa;
+  border-top: solid 1px #e9f0f3;
+  border-bottom: solid 1px #e9f0f3;
 }
 
 
