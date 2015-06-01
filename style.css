@@ -1692,7 +1692,7 @@ Media Queries
   .nav__list {float: right; margin-top: 33px; display: block}
   .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A", "Gotham Rounded B"}
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
-    #headerarea {padding: 83px 0px; margin-top: 80px; margin-bottom: 25px; padding: 81px 0;}
+    #headerarea {padding: 83px 0px; margin-top: 80px; padding: 81px 0;}
   .nav__item--home {display: none;}
   .header__logo {    width: 162px; margin-top: 0px; top: 25px;}
   .card {width: 49%; float: left; margin-right: 2%}
