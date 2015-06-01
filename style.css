@@ -537,6 +537,8 @@ p {
   margin-top: 40px;
   position: relative;
   text-align: center;
+  background-size: cover;
+    background-position: center;
 }
 
 .callout-card svg, .callout-card img {
@@ -767,6 +769,8 @@ featuresmedia="screen"
   text-align: center;
   padding: 0 15px;
     box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
   }
 
   .onelarge:after {
