@@ -619,6 +619,10 @@ p {
   color: #5e6c77;
 }
 
+.shadow {
+	background-color: rgba(0,0,0,0.14);
+}
+
 .small {
     font-size: 12px;
     font-weight: 600;
