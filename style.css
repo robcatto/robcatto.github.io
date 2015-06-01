@@ -1733,7 +1733,7 @@ Media Queries
 .nav__anchor:hover {
     color: #657278;
 }
-	h1 {font-size: 38px;}
+	h1 {font-size: 36px;}
 	h3 {font-size: 26px; padding-top: 50px;}
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
