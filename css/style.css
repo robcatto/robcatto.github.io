@@ -1,0 +1,1775 @@
+/*Theme Name: Discoverxc Custom 
+Theme URI: Your theme's URL
+Description: Custom theme made for Ausxc.com
+Version: 1.0
+Author: Robbie Catto-Smith
+Author URI:
+Tags: ausxc
+*/
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+
+/* Fonts
+   ========================================================================== */
+
+h1+.subheading, 
+h1+.subheader, 
+h2+.subheading, 
+h2+.subheader, 
+h3+.subheading, 
+h3+.subheader, 
+h4+.subheading, 
+h4+.subheader, 
+h5+.subheading, 
+h5+.subheader, 
+h6+.subheading, 
+h6+.subheader, 
+p, 
+a {
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+ul, ol, dl {
+  color: #8c989e;
+
+  line-height: 1.6;
+  list-style-position: outside;
+  margin: 0 0 30px 20px;
+  padding: 0;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+	  background-color: #fff;
+  color: #8c989e;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-rendering: geometricPrecision;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: "Gotham Rounded A", "Gotham Rounded B";
+	position: relative;
+	z-index: 9000;
+}
+
+h3 {
+	  font-size: 21px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  color: #485159;
+  font-weight: 500;
+  width: 86.61352657%;
+  margin: 0 auto;
+  padding-top: 35px;
+  line-height: 1.2;
+
+}
+
+p {
+	font-size: 18px;
+  	font-family: "Gotham Rounded A", "Gotham Rounded B";
+  	color: #8c989e;
+  	font-weight: 400;
+  	width: 89.61352657%;
+  	margin: 0 auto;
+  	max-width: 743px;
+  	line-height: 1.7;
+  	padding-top: 31px;
+}
+
+
+/* My Grid
+   ========================================================================== */
+
+.callout-card {
+  border-radius: 5px;
+  background-color: #384047;
+  min-height: 178px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+    background-position: center;
+}
+
+.callout-card svg, .callout-card img {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.callout-card .button {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.button {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  font-size: 15px;
+  font-weight: 500;
+  height: 52px;
+  position: relative;
+  line-height: 48px;
+  margin: 0;
+  outline: none;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid #FBCD27;
+  color: #FBCD27;
+  background-color: white;
+}
+
+.button.primary {
+    background-color: #FBCD27;
+  border: 2px solid #FBCD27;
+  color: #384047;
+}
+
+.inverse {
+  border-color: #fff;
+  color: #fff;
+  opacity: 0.88;
+  background-color: transparent;
+}
+
+.dark {
+  background-color: transparent;
+  border: 2px solid #d4d9dd;
+  color: #657380;
+  margin: 35px 0px 15px 0px;
+}
+
+.dark:hover {
+	  border-color: #a9b3bb;
+  color: #5e6c77;
+}
+
+.shadow {
+	background-color: rgba(0,0,0,0.14);
+}
+
+.small {
+    font-size: 12px;
+    font-weight: 600;
+  height: 38px;
+  line-height: 34px;
+  padding: 0 26px;
+}
+
+.features-toggle {
+  position: absolute;
+  bottom: -26px;
+  width: 100%;
+}
+
+.features-controller.index-action .features-toggle-anchor:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.features-controller.index-action .features-toggle-anchor:last-child {
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+}
+
+featuresmedia="screen"
+.features-controller .button.primary {
+  margin-top: 30px;
+}
+featuresmedia="screen"
+.features-controller.index-action .features-toggle-anchor {
+  font-size: 14px;
+  margin-right: 0;
+}
+
+.accordion {
+  margin: 94px auto 0 auto;
+  max-width: 500px;
+  height: 300px;
+  position: relative;
+}
+.accordion input.tab-toggle {
+  position: absolute;
+  opacity: 0;
+}
+.accordion input.tab-toggle:checked + label {
+  background: white;
+}
+.accordion input.tab-toggle:checked + label .tab-title:hover {
+  background: transparent;
+}
+.accordion input.tab-toggle:checked + label .tab {
+  visibility: visible;
+  opacity: 1;
+}
+.accordion label {
+  float: left;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 3px 3px 0 0;
+}
+.accordion label:first-of-type .tab {
+  border-radius: 0 3px 3px 3px;
+}
+.accordion label .tab-title {
+  display: block;
+  padding: 20px;
+  border-radius: 3px 3px 0 0;
+}
+.accordion label .tab-title:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+}
+.accordion .tab {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding: 20px;
+  top: 56px;
+  left: 0;
+  min-width: 100%;
+  height: 244px;
+  background: white;
+  border-radius: 3px;
+}
+
+
+    .content > div {display: none;}
+
+    input {display: none;}
+    label {display: inline-block; padding: 15px 25px; font-weight: 600; text-align: center; line-height: 48px;
+           border: 2px solid #FBCD27; }
+    label:hover {cursor: pointer;}
+    input:checked + label {background: #ed5a6a; color: #fff; background-color: #FBCD27; border: 2px solid #FBCD27; color: #384047;}
+
+    #tab1:checked ~ .content #content1,
+    #tab2:checked ~ .content #content2,
+    #tab3:checked ~ .content #content3,
+    #tab4:checked ~ .content #content4 {
+      display: block;
+    }
+
+
+
+
+
+/* My Grid
+   ========================================================================== */
+
+   .row {
+   	  max-width: 1030px;
+  	  margin: 0 auto;
+  	  width: 100%;
+   }
+
+   .row:before {
+      content: " ";
+      display: table;
+   }
+
+    /* Default Value for Mobile  */
+
+   .three {  
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .one {
+  width: 100%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;	
+  }
+
+  .centered {
+  float: none;
+  margin: 0 auto;
+}
+  
+   .onelarge {
+   	width: 100%;
+     max-width: 657px;
+       border-radius: 5px;
+  background-color: #A9A9A9;
+  min-height: 345px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+  padding: 0 15px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onelarge:after {
+    content: "";
+    clear: both;
+  }
+
+    .column .columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.mobile_section {
+  border-bottom: 1px #e9f0f3 Solid;
+  padding-bottom: 35px;
+  overflow: auto;
+}
+
+.mobile_section:after {
+ content: "";
+ clear: both;
+}
+
+.section_hasbg {
+	background-color: #f6f9fa;
+  border-top: solid 1px #e9f0f3;
+  border-bottom: solid 1px #e9f0f3;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+footer p {
+	padding-top: 15px;
+}
+
+
+
+footer:before {
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -15px;
+  content: " ";
+  display: block;
+  background-color: #eaedef;
+}
+
+.footer_heading {
+font-weight: 500;
+  color: #d3d9dd;
+  font-size: 24px;
+}
+
+.footer_subheading {
+font-weight: 500;
+  color: #d3d9dd;
+  font-size: 16px;
+  color: #8D989F;
+}
+
+
+
+
+
+
+
+/* Menus
+   ========================================================================== */
+
+.main__nav {
+    list-style: none;
+    text-decoration: none;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    z-index: 200;
+    top: -215px;
+}
+
+.main__nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main__nav li {
+  width: 100%;
+  background: #2BA6E0;
+}
+
+.promo__button {
+  color: #EFB500 !important;
+}
+
+.main__nav a {
+    background: #2BA6E0;
+    color: white;
+  height: auto;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 15px !important;
+  line-height: 50px;
+  border-top: 1px solid #2BA6E0;
+}
+
+
+#menu__tab a {
+      line-height: 40px;
+  border: 0;
+  height: 38px;
+  width: 87px;
+  padding: 0;
+  float: right;
+  margin-right: 10px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  z-index: 9999;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-decoration: none;
+  position: relative;
+  top: 0px;
+}
+
+.nav__item {
+	list-style: none;
+}
+
+.nav__item--current {
+	color: #4e585c;
+}
+
+.nav__list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: none;
+}
+
+
+.nav__anchor {
+  cursor: pointer;
+}
+
+
+
+
+.nav__anchor:hover, .nav__anchor:active, .nav__anchor:focus {
+  color: #fff;
+}
+
+/* Header Elements
+   ========================================================================== */
+
+#header {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  max-width: 100%;
+
+}
+
+.header__mobile {
+  background-image: url(images/header-mobile.png);
+  background-repeat: no-repeat,repeat-x;
+  position: relative;
+  width: 101%;
+  height: 98px;
+  border-top: 3px solid #2BA6E0;
+}
+
+.header__tablet {
+
+}
+
+
+.nav-list {
+    position: absolute;
+  top: 0;
+  right: -270px;
+  box-shadow: 50px 0 0 #384047;
+  background-color: #384047;
+  width: 270px;
+  height: 100vh;
+  padding-top: 51px;
+  z-index: 0;
+}
+
+.nav__item:first-child {
+        border-top: solid 1px #303A41
+    }
+    .nav__item:first-child a {
+        margin-top: 5px
+    }
+
+   
+
+    .nav-item.current a {
+        background-color: #2f363c;
+        color: #fff;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px
+    }
+
+
+#nav {
+	
+  position: relative;
+  position: fixed;
+  top: 0;
+  -webkit-transition: border-color 200ms ease-in-out,-webkit-transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
+  transition: border-color 200ms ease-in-out,transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
+  background-color: #fff;
+  border-bottom: solid 1px transparent;
+  width: 100%;
+  z-index: 99;
+  border-bottom-color: #e9f0f3;
+  height: 52px;
+  box-sizing: border-box;
+  z-index: 9500;
+  
+}
+
+.nav_open {
+
+   -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        transform: translateX(-270px);
+
+}
+
+.nav__anchor {
+	 -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  color: #788188;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 17px 0 16px 15px;
+  margin-left: 7px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+}
+
+#mobile-nav-toggle {
+  margin-top: 16px;
+  height: 20px;
+  float: right;
+  position: relative;
+  top: 8px;
+}
+
+.header__logo {
+     background-repeat: no-repeat,repeat-x;
+  background-size: contain;
+  position: relative;
+  height: auto;
+  width: 131px;
+  top: 14px;
+  float: left;
+}
+
+#nav>section {
+    max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-right: 17px;
+  box-sizing: border-box;
+}
+
+#headerarea {
+   width: 100%;
+  background: #F7F9F9;
+  border-bottom: solid 1px #e9f0f3;
+  text-align: center;
+  padding: 72px 0px 92px 0px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  color: #384047;
+  font-weight: 500;
+  margin-top: 52px;
+  margin-bottom: -26px;
+  position: relative;
+}
+
+.header__logo--wrap {
+    position: relative;
+  top: -83px;
+  margin: 0 auto;
+  max-width: 1110px;
+
+}
+
+.mobile__logos--left {
+  float: left;
+  position: absolute;
+  background-image: url(images/mobile__header--logo--left.svg);
+     height: 188px;
+  width: 142px;
+  background-size: contain;
+  top: 18px;
+  background-repeat: no-repeat;
+}
+.mobile__logos--right {
+  float: right;
+  background-image: url(images/mobile__header--logo--right.svg);
+  position: absolute;
+    height: 188px;
+  width: 146px;
+  background-size: contain;
+  top: 18px;
+  background-repeat: no-repeat;
+  right: 0;
+}
+
+.desktop__logos--left {
+  float: left;
+  position: absolute;
+  background-image: url(images/desktop__header--logo--left.svg);
+    height: 188px;
+  width: 248px;
+  background-size: contain;
+  top: 8px;
+  background-repeat: no-repeat;
+  display: none;
+}
+.desktop__logos--right {
+  float: right;
+  background-image: url(images/desktop__header--logo--right.svg);
+  position: absolute;
+    height: 188px;
+  width: 248px;
+  background-size: contain;
+  top: 8px;
+  background-repeat: no-repeat;
+  right: 0;
+  display: none;
+}
+
+
+.hamburger {
+	position: relative;
+  background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+  -webkit-transition: top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hamburger::before {
+	content: "";
+	top: -7px;
+	position: absolute;
+	background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+  -webkit-transition: top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.hamburger::after {
+	content: "";
+	position: absolute;
+	bottom: -7px;
+	background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+  -webkit-transition: top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+/* =============================================================================
+  DEMO STUFF
+============================================================================= */
+
+
+.items {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.item {
+  margin: 0px;
+}
+
+/* =============================================================================
+  MENU TOGGLE SWITCHES
+============================================================================= */
+/**
+ * Toggle Switch Globals
+ *
+ * All switches should take on the class `cmn-toggle-switch` as well as their
+ * variant that will give them unique properties. This class is an overview
+ * class that acts as a reset for all versions of the icon.
+ */
+.cmn-toggle-switch {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 26px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  float: right;
+  margin-top: 12px;
+}
+
+.cmn-toggle-switch:focus {
+  outline: none;
+}
+
+.cmn-toggle-switch span {
+    display: block;
+  position: absolute;
+  /* top: 24px; */
+  /* left: 18px; */
+  /* right: 18px; */
+  height: 6px;
+  background: white;
+  background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+  top: 12px;
+}
+
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+  content: "";
+  background-color: #D8D8D8;
+  width: 25px;
+  height: 3px;
+  display: block;
+  border-radius: 6px;
+}
+
+.cmn-toggle-switch span::before {
+  top: -6px;
+}
+
+.cmn-toggle-switch span::after {
+  bottom: -6px;
+}
+
+/**
+ * Style 1
+ *
+ * Rotating hamburger icon (rot), that simply rotates 90 degrees when activated.
+ * Nothing too fancy, simple transition.
+ */
+.cmn-toggle-switch__rot {
+  background-color: #28aadc;
+}
+
+.cmn-toggle-switch__rot span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__rot.active {
+  background-color: #166888;
+}
+
+.cmn-toggle-switch__rot.active span {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/**
+ * Style 2
+ * 
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.cmn-toggle-switch__htx {
+  background-color: white;
+}
+
+.cmn-toggle-switch__htx span {
+  -webkit-transition: background 0s 0.3s;
+          transition: background 0s 0.3s;
+}
+
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-duration: 0.3s, 0.3s;
+          transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0s;
+          transition-delay: 0.3s, 0s;
+}
+
+.cmn-toggle-switch__htx span::before {
+  -webkit-transition-property: top, -webkit-transform;
+          transition-property: top, transform;
+}
+
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-property: bottom, -webkit-transform;
+          transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htx.active {
+  background-color: white;
+}
+
+.cmn-toggle-switch__htx.active span {
+  background: none;
+}
+
+.cmn-toggle-switch__htx.active span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.cmn-toggle-switch__htx.active span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after {
+  -webkit-transition-delay: 0s, 0.3s;
+          transition-delay: 0s, 0.3s;
+}
+
+/**
+ * Style 3
+ *
+ * Hamburger to left-arrow (htla). Hamburger menu transforms to a left-pointing
+ * arrow. Usually indicates an off canvas menu sliding in from left that
+ * will be close on re-click of the icon.
+ */
+.cmn-toggle-switch__htla {
+  background-color: #32dc64;
+}
+
+.cmn-toggle-switch__htla span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.cmn-toggle-switch__htla span::before {
+  -webkit-transform-origin: top right;
+      -ms-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+          transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.cmn-toggle-switch__htla span::after {
+  -webkit-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+          transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htla.active {
+  background-color: #18903c;
+}
+
+.cmn-toggle-switch__htla.active span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.cmn-toggle-switch__htla.active span::before,
+.cmn-toggle-switch__htla.active span::after {
+  width: 50%;
+}
+
+.cmn-toggle-switch__htla.active span::before {
+  top: 0;
+  -webkit-transform: translateX(42px) translateY(3px) rotate(45deg);
+      -ms-transform: translateX(42px) translateY(3px) rotate(45deg);
+          transform: translateX(42px) translateY(3px) rotate(45deg);
+}
+
+.cmn-toggle-switch__htla.active span::after {
+  bottom: 0;
+  -webkit-transform: translateX(42px) translateY(-3px) rotate(-45deg);
+      -ms-transform: translateX(42px) translateY(-3px) rotate(-45deg);
+          transform: translateX(42px) translateY(-3px) rotate(-45deg);
+}
+
+/**
+ * Style 4
+ *
+ * Hamburger to right-arrow (htra). Hamburger menu transforms to a
+ * right-pointing arrow. Usually indicates an off canvas menu sliding in from 
+ * right that will be close on re-click of the icon.
+ */
+.cmn-toggle-switch__htra {
+  background-color: #ff9650;
+}
+
+.cmn-toggle-switch__htra span {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.cmn-toggle-switch__htra span::before {
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, top 0.3s;
+          transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.cmn-toggle-switch__htra span::after {
+  -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: -webkit-transform 0.3s, width 0.3s, bottom 0.3s;
+          transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htra.active {
+  background-color: #e95d00;
+}
+
+.cmn-toggle-switch__htra.active span {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.cmn-toggle-switch__htra.active span::before,
+.cmn-toggle-switch__htra.active span::after {
+  width: 50%;
+}
+
+.cmn-toggle-switch__htra.active span::before {
+  top: 0;
+  -webkit-transform: translateX(-6px) translateY(3px) rotate(-45deg);
+      -ms-transform: translateX(-6px) translateY(3px) rotate(-45deg);
+          transform: translateX(-6px) translateY(3px) rotate(-45deg);
+}
+
+.cmn-toggle-switch__htra.active span::after {
+  bottom: 0;
+  -webkit-transform: translateX(-6px) translateY(-3px) rotate(45deg);
+      -ms-transform: translateX(-6px) translateY(-3px) rotate(45deg);
+          transform: translateX(-6px) translateY(-3px) rotate(45deg);
+}
+
+
+
+/* Page Container
+   ========================================================================== */
+
+#page__container {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 56px;
+  position: relative;
+  background: #fff;
+  z-index: 1;
+}
+
+#container {
+
+  
+  position: relative;
+  width: 100%;
+  background: white;
+    -webkit-transition: border-color 200ms ease-in-out,-webkit-transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
+  transition: border-color 200ms ease-in-out,transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
+}
+
+.container_open {
+  -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        transform: translateX(-270px);
+}
+
+
+
+#page__content--wrap {
+	display: block;
+	width: 100%;
+	background: white;
+}
+
+.page__content {
+	
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  background: white;
+}
+
+
+
+/* Card Elements
+   ========================================================================== */
+
+#cardarea__wrap {
+  background: #edeff0;
+  width: 100%;
+  padding: 0px 15px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  background: white;
+  height: 256px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.1);
+  margin-top: 27px;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-animation: card-fade-up 0.5s ease;
+  animation: card-fade-up 0.5s ease;
+}
+
+
+.card__text {
+      background: none !important;
+  position: relative;
+  top: 9px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  font-weight: 500;
+  color: #5a6772;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.card:hover > .card__text {
+  color: #657278;
+}
+
+.card__image {
+  width: 100%;
+  height: 218px;
+  background-size: cover;
+  position: relative;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.card__image:nth-child(1) {
+  background-image: url(images/beginner-information.png)
+}
+
+#cardarea__wrap > div:nth-child(2) > div {
+  background-image: url(images/Kids-&-Cross-Country-Skiing.png)
+}
+
+#cardarea__wrap > div:nth-child(3) > div {
+  background-image: url(images/discover-racing.png)
+}
+
+#cardarea__wrap > div:nth-child(4) > div {
+  background-image: url(images/beginner-information.png)
+}
+
+#cardarea__wrap > div:nth-child(5) > div {
+  background-image: url(images/beginner-information.png)
+}
+
+#cardarea__wrap > div:nth-child(6) > div {
+  background-image: url(images/beginner-information.png)
+}
+
+
+
+
+/* Hero Image
+   ========================================================================== */
+
+
+#slideshowarea {
+ width: 100%;
+  height: 223px;
+  background-image: url(images/ramsaufull.jpg);
+  background-repeat: no-repeat,repeat-x;
+  background-size: cover;
+}
+
+/* Quote Area
+   ========================================================================== */
+
+#blurbarea {
+  background: white;
+  width: 100%;
+  height: 120px;
+  position: relative;
+  border-top: 1px solid #e9f0f3;
+  border-bottom: 1px solid #e9f0f3;
+}
+
+.blurbarea__ausxc {
+
+
+}
+
+.blurbarea__text {
+    text-align: center;
+  padding: 20px 80px;
+  font-size: 16px;
+  color: #5a6772;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  line-height: 1.4;
+}
+
+
+/* Footer Area
+   ========================================================================== */
+
+
+
+
+/*************************
+Media Queries
+*************************/
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1139px) {
+
+  .three {
+      width: 33.33333%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+
+   .centered {
+  float: none;
+}
+
+  #nav { height: 80px;}
+  .nav__item:first-child {
+  border-top: none;
+}
+.nav__item:first-child a {
+  margin-top: 0px;
+}
+.nav__anchor:hover {
+    color: #657278;
+}
+  h1 {font-size: 36px;}
+  h3 {font-size: 26px; padding-top: 51px;}
+  #mobile-nav-toggle {display: none;}
+  .cmn-toggle-switch {display: none;}
+  .nav__list {float: right; margin-top: 33px; display: block}
+  .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A", "Gotham Rounded B"}
+  .nav__item { float: left; font-size: 15px; margin-left: 40px; }
+    #headerarea {padding: 83px 0px; margin-top: 80px; padding: 81px 0;}
+  .nav__item--home {display: none;}
+  .header__logo {    width: 162px; margin-top: 0px; top: 25px;}
+  .card {width: 49%; float: left; margin-right: 2%}
+    .card:nth-child(2n+0) {margin-right: 0px;}
+  #cardarea__wrap {width: 94%; margin: 0 auto;}
+  #slideshow-area {height: 187px; background-position-y: -80px;}
+   .card__image {height: 208px;}
+  .card {height: 242px;}
+  .mobile__logos--left {display: none;}
+  .mobile__logos--right {display: none;}
+  .desktop__logos--left {display: block; left: -38px;}
+  .desktop__logos--right {display: block; right: -36px;}
+}
+
+@media screen and (min-width: 1140px) and (max-width: 4000px) {
+  .three {
+      width: 33.33333%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+
+  .centered {
+  float: none;
+}
+
+	#nav { height: 80px;}
+	.nav__item:first-child {
+  border-top: none;
+}
+.nav__item:first-child a {
+  margin-top: 0px;
+}
+.nav__anchor:hover {
+    color: #657278;
+}
+	h1 {font-size: 36px;}
+	h3 {font-size: 26px; padding-top: 50px;}
+	#mobile-nav-toggle {display: none;}
+  .cmn-toggle-switch {display: none;}
+  .nav__list {float: right; margin-top: 33px; display: block}
+  .nav__anchor {font-size: 14px; padding: 0px; color: #8c989e; font-weight: 500; font-family: "Gotham Rounded A", "Gotham Rounded B"}
+  .nav__item { float: left; font-size: 15px; margin-left: 40px; }
+  #headerarea {padding: 83px 0px; margin-top: 80px; padding: 81px 0;}
+  .header__desktop {display: block; height: 80px;}
+  .header__logo {    width: 162px; margin-top: 0px; top: 25px;}
+  .header__logo:hover { fill: #EFB500;}
+  .header__mobile {display: none;}
+  #blurbarea {height: 80px;}
+  .blurbarea__text { padding: 30px 90px;}
+  .card {width: 32%; float: left; margin-right: 2%}
+    .card:nth-child(3n+0) {margin-right: 0px;}
+  #cardarea__wrap {width: 80%; margin: 0 auto; padding: 0px;}
+  #slideshowarea {   height: 354px;
+  background-position-y: -165px;
+  margin-top: 0px;}
+  .main__nav {display: none;}
+  .card__image {height: 178px;}
+  .card {height: 212px;}
+  .mobile__logos--left {display: none;}
+  .mobile__logos--right {display: none;}
+  .desktop__logos--left {display: block; right: 0px;}
+  .desktop__logos--right {display: block; left: 0px;}
+
+
+
+
+
+       
+
+
+
