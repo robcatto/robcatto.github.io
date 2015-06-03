@@ -525,6 +525,11 @@ p {
   	padding-top: 31px;
 }
 
+.feature_heading {
+	font-size: 36px;
+	padding-top: 25px;
+}
+
 .subheader {
 	color: rgba(255,255,255,0.5);
 	  font-size: 18px;
@@ -1096,7 +1101,7 @@ font-weight: 500;
 
 .feature_header {
 	margin-bottom: 0px;
-	padding: 35px 0;
+	padding: 51px 0;
 }
 
 .header__logo--wrap {
