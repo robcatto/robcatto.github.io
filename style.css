@@ -1100,8 +1100,8 @@ font-weight: 500;
 }
 
 .feature_header {
-	margin-bottom: 0px;
-	padding: 51px 0;
+	margin-bottom: 0px !important;
+	padding: 51px 0 !important;
 }
 
 .header__logo--wrap {
