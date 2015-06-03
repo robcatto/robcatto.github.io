@@ -811,6 +811,7 @@ featuresmedia="screen"
   border-bottom: 1px #e9f0f3 Solid;
   padding-bottom: 35px;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .mobile_section:after {
