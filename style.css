@@ -525,6 +525,16 @@ p {
   	padding-top: 31px;
 }
 
+.subheader {
+	color: rgba(255,255,255,0.5);
+	  font-size: 18px;
+	  line-height: 24px;
+	  width: 60%;
+	  text-align: center;
+	  margin: 0 auto;
+	  padding-top: 20px;
+}
+
 
 /* My Grid
    ========================================================================== */
@@ -1082,6 +1092,11 @@ font-weight: 500;
   margin-top: 52px;
   margin-bottom: -26px;
   position: relative;
+}
+
+.feature_header {
+	margin-bottom: 0px;
+	padding: 35px 0;
 }
 
 .header__logo--wrap {
