@@ -1131,15 +1131,15 @@ font-weight: 500;
 }
 
 #headerarea__home {
-     max-width: 100%;
-  height: 136px;
+       max-width: 100%;
+  height: 75px;
   border-bottom: solid 1px #e9f0f3;
   text-align: center;
   padding: 72px 0px 92px 0px;
   font-family: "Gotham Rounded A", "Gotham Rounded B";
   margin-top: 52px;
   position: relative;
-  background-size: contain !important;
+  background-size: cover !important;
 }
 
 .feature_header {
