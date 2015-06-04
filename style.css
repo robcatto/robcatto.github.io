@@ -1709,6 +1709,13 @@ Media Queries
   box-sizing: border-box;
   }
 
+  .two {
+      width: 50%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+
    .centered {
   float: none;
 }
@@ -1748,6 +1755,13 @@ Media Queries
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
   .three {
       width: 33.33333%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+
+   .two {
+      width: 50%;
   float: left;
   padding: 0 15px;
   box-sizing: border-box;
