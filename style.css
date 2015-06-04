@@ -806,6 +806,27 @@ featuresmedia="screen"
     clear: both;
   }
 
+  .twolarge {
+   width: 50%;
+     max-width: 657px;
+       border-radius: 5px;
+  background-color: #A9A9A9;
+  min-height: 345px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+  padding: 0 15px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center; 
+  }
+
+  .twolarge:after {
+    content: "";
+    clear: both;
+  }
+
     .column .columns {
     float: left;
     min-height: 1px;
