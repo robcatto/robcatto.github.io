@@ -766,6 +766,12 @@ featuresmedia="screen"
     padding: 0 15px;
     box-sizing: border-box;
   }
+
+  .two {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
   
   .one {
   width: 100%;
