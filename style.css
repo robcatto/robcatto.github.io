@@ -1138,6 +1138,7 @@ font-weight: 500;
   font-family: "Gotham Rounded A", "Gotham Rounded B";
   margin-top: 52px;
   position: relative;
+  background-size: contain;
 }
 
 .feature_header {
