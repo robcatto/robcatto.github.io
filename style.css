@@ -561,6 +561,20 @@ p {
   position: relative;
 }
 
+.icon-card {
+    border-radius: 5px;
+  background-color: #384047;
+  min-height: 178px;
+  margin-bottom: 40px;
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+    background-position: center;
+      background-color: transparent;
+  min-height: 245px;
+  }
+
 .callout-card {
   border-radius: 5px;
   background-color: #384047;
@@ -1829,11 +1843,11 @@ Media Queries
     width: 414px;
   }
 
-  .icons-card {
+  .icon-card {
     border-radius: 5px;
   background-color: #384047;
   min-height: 178px;
-  margin-bottom: 35spx;
+  margin-bottom: 30px;
   margin-top: 40px;
   position: relative;
   text-align: center;
@@ -1842,9 +1856,6 @@ Media Queries
       background-color: transparent;
   min-height: 245px;
   margin-top: 0px;
-  background-color: transparent;
-  min-height: 245px;
-
   }
 
   .home__logo--wrap {
@@ -1913,8 +1924,25 @@ Media Queries
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
 
+
+
   .welcome-card {
     width: 414px;
+  }
+
+  .icon-card {
+    border-radius: 5px;
+  background-color: #384047;
+  min-height: 178px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+    background-position: center;
+      background-color: transparent;
+  min-height: 245px;
+  margin-top: 0px;
   }
 
   .home__icons {
