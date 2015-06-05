@@ -1152,6 +1152,11 @@ font-weight: 500;
   line-height: 1.7;
 }
 
+.homepage__quotearea--text:after {
+  content:"";
+  clear: both;
+}
+
 .feature_header {
 	margin-bottom: 0px !important;
 	padding: 51px 0 !important;
