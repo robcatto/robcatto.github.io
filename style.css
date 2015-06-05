@@ -1130,16 +1130,10 @@ font-weight: 500;
   position: relative;
 }
 
-#headerarea__home {
-       max-width: 100%;
-  height: 75px;
-  border-bottom: solid 1px #e9f0f3;
-  text-align: center;
-  padding: 72px 0px 92px 0px;
-  font-family: "Gotham Rounded A", "Gotham Rounded B";
+.homepage__imageheader {
   margin-top: 52px;
   position: relative;
-  background-size: cover !important;
+  
 }
 
 .feature_header {
@@ -1735,6 +1729,12 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 
+  .homepage__imageheader {
+  margin-top: 80px;
+  position: relative;
+  
+}
+
   .three {
       width: 33.33333%;
   float: left;
@@ -1786,6 +1786,12 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+
+   .homepage__imageheader {
+  margin-top: 80px;
+  position: relative;
+  
+}
   .three {
       width: 33.33333%;
   float: left;
