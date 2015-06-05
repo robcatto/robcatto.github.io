@@ -1158,7 +1158,7 @@ font-weight: 500;
 }
 
 .welcome__card {
-  font-size: 30px; color: #384047; padding-top: 34px;
+  font-size: 30px; color: #384047; padding-top: 34px; line-height: 1.4; font-weight: 500;
 }
 
 .feature_header {
