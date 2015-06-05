@@ -1169,13 +1169,13 @@ font-weight: 500;
 }
 
 .welcome__card--p {
-  font-size: 18px; 
-  line-height: 1.4; 
-  
-  margin-left: 0px; 
+  font-size: 1.0224em;
+  line-height: 1.7;
+  margin-left: 0px;
   text-align: left;
-  color: rgba(0,0,0,0.5); 
-  font
+  color: rgba(0,0,0,0.5);
+  padding: 15px 0px;
+  width: 100%;
 }
 
 .feature_header {
