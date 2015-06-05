@@ -1164,7 +1164,7 @@ font-weight: 500;
   font-size: 36px;
   color: #384047;
   padding-top: 34px;
-  line-height: 1.4;
+  line-height: 1.2;
   font-weight: 500;
 }
 
@@ -1176,6 +1176,10 @@ font-weight: 500;
   color: rgba(0,0,0,0.5);
   padding: 14px 0px;
   width: 100%;
+}
+
+.welcome__discover--icons {
+  right: 58px;
 }
 
 .feature_header {
