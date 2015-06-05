@@ -1157,6 +1157,10 @@ font-weight: 500;
   clear: both;
 }
 
+.welcome__card {
+  font-size: 30px; color: #384047; padding-top: 34px;
+}
+
 .feature_header {
 	margin-bottom: 0px !important;
 	padding: 51px 0 !important;
