@@ -1136,6 +1136,10 @@ font-weight: 500;
   
 }
 
+.homepage__quotearea {
+  background: white;
+}
+
 .feature_header {
 	margin-bottom: 0px !important;
 	padding: 51px 0 !important;
