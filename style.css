@@ -1168,9 +1168,10 @@ font-weight: 500;
 .welcome__card--p {
   font-size: 18px; 
   line-height: 1.4; 
-  color: rgba(0,0,0,0.5); 
+  
   margin-left: 0px; 
   text-align: left;
+  color: rgba(0,0,0,0.5); 
 }
 
 .feature_header {
