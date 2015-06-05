@@ -1161,20 +1161,20 @@ font-weight: 500;
 }
 
 .welcome__card {
-  font-size: 30px; 
-  color: #384047; 
-  padding-top: 34px; 
-  line-height: 1.4; 
+  font-size: 36px;
+  color: #384047;
+  padding-top: 34px;
+  line-height: 1.4;
   font-weight: 500;
 }
 
 .welcome__card--p {
-  font-size: 1.0224em;
+    font-size: 18px;
   line-height: 1.7;
   margin-left: 0px;
   text-align: left;
   color: rgba(0,0,0,0.5);
-  padding: 15px 0px;
+  padding: 14px 0px;
   width: 100%;
 }
 
