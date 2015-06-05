@@ -1815,7 +1815,14 @@ Media Queries
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 
   .home__icons {
-    top: 20px; left: 205px; position: relative; z-index: 9001;
+    top: 51px;
+  left: 205px;
+  position: relative;
+  z-index: 9001;
+  transition-delay: -50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   }
 
   .welcome-card {
@@ -1908,7 +1915,14 @@ Media Queries
   }
 
   .home__icons {
-    top: 20px; left: 205px; position: relative; z-index: 9001;
+    top: 51px;
+  left: 205px;
+  position: relative;
+  z-index: 9001;
+  transition-delay: -50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   }
 
   .home__logo--wrap {
