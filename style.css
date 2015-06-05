@@ -1833,7 +1833,7 @@ Media Queries
     border-radius: 5px;
   background-color: #384047;
   min-height: 178px;
-  margin-bottom: 30px;
+  margin-bottom: 35spx;
   margin-top: 40px;
   position: relative;
   text-align: center;
@@ -1842,6 +1842,9 @@ Media Queries
       background-color: transparent;
   min-height: 245px;
   margin-top: 0px;
+  background-color: transparent;
+  min-height: 245px;
+
   }
 
   .home__logo--wrap {
