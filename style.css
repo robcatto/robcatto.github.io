@@ -1140,6 +1140,18 @@ font-weight: 500;
   background: white;
 }
 
+.homepage__quotearea--text {
+  padding: 30px 0px;
+  font-size: 20px;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  color: #8c989e;
+  font-weight: 500;
+  width: 89.61352657%;
+  margin: 0 auto;
+  max-width: 743px;
+  line-height: 1.7;
+}
+
 .feature_header {
 	margin-bottom: 0px !important;
 	padding: 51px 0 !important;
