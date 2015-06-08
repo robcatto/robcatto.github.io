@@ -550,7 +550,7 @@ p {
 
 .welcome-card {
   background-color: white;
-  min-height: 245px;
+  min-height: 152px;
   padding: 0px 33px;
   text-align: left;
   box-sizing: border-box;
@@ -1841,6 +1841,7 @@ Media Queries
 
   .welcome-card {
     width: 414px;
+    min-height: 251px;
   }
 
   .icon-card {
@@ -1928,6 +1929,7 @@ Media Queries
 
   .welcome-card {
     width: 414px;
+    min-height: 251px;
   }
 
   .icon-card {
