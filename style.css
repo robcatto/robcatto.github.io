@@ -525,6 +525,11 @@ p {
   	max-width: 743px;
   	line-height: 1.7;
   	padding-top: 31px;
+  	  color: #8c989e;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .feature_heading {
@@ -723,7 +728,7 @@ featuresmedia="screen"
 }
 .accordion label {
   float: left;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   border-radius: 3px 3px 0 0;
 }
