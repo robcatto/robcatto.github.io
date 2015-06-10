@@ -789,6 +789,12 @@ featuresmedia="screen"
 
     /* Default Value for Mobile  */
 
+.four {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
    .three {  
     width: 100%;
     padding: 0 15px;
@@ -1873,6 +1879,13 @@ Media Queries
   
 }
 
+ .four {
+      width: 25%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+
   .three {
       width: 33.33333%;
   float: left;
@@ -1972,6 +1985,14 @@ Media Queries
   position: relative;
   
 }
+
+ .four {
+      width: 33.33333%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+
   .three {
       width: 33.33333%;
   float: left;
