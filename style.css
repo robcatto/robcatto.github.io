@@ -1664,6 +1664,7 @@ font-weight: 500;
   position: relative;
   width: 100%;
   max-width: 1030px;
+  margin: 0 auto;
   background: white;
     -webkit-transition: border-color 200ms ease-in-out,-webkit-transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
   transition: border-color 200ms ease-in-out,transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
