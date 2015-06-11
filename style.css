@@ -1157,8 +1157,7 @@ font-weight: 500;
 
 #headerarea {
    width: 100%;
-  background: #F7F9F9;
-  border-bottom: solid 1px #e9f0f3;
+  background: none;
   text-align: center;
   padding: 72px 0px 92px 0px;
   font-family: "Gotham Rounded A", "Gotham Rounded B";
