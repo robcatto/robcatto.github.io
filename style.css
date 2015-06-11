@@ -874,6 +874,7 @@ featuresmedia="screen"
   overflow: auto;
   overflow-x: hidden;
   border-radius: 5px;
+  background-color: white;
 }
 
 .mobile_section:after {
@@ -1655,7 +1656,7 @@ font-weight: 500;
   min-height: 100%;
   padding-bottom: 56px;
   position: relative;
-  background: #fff;
+  background: #f7f7f7;
   z-index: 1;
 }
 
