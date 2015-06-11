@@ -1096,7 +1096,7 @@ font-weight: 500;
   border-bottom: solid 1px transparent;
   width: 100%;
   z-index: 99;
-  border-bottom-color: #e9f0f3;
+  /*border-bottom-color: #e9f0f3;*/
   height: 52px;
   box-sizing: border-box;
   z-index: 9500;
