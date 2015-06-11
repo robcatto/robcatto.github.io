@@ -1686,7 +1686,7 @@ font-weight: 500;
 #page__content--wrap {
 	display: block;
 	width: 100%;
-	background: white;
+	background: none;
 }
 
 #home__content--wrap {
