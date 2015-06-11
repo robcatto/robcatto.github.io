@@ -1916,6 +1916,7 @@ Media Queries
 }
   h1 {font-size: 36px;}
   h3 {font-size: 26px; padding-top: 51px;}
+  p {font-size: 16px;}
   #mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
@@ -2023,6 +2024,7 @@ Media Queries
 }
 	h1 {font-size: 36px;}
 	h3 {font-size: 26px; padding-top: 50px;}
+	p {font-size: 16px;}
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
   .nav__list {float: right; margin-top: 33px; display: block}
