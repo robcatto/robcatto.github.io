@@ -1100,6 +1100,7 @@ font-weight: 500;
   height: 52px;
   box-sizing: border-box;
   z-index: 9500;
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
   
 }
 
@@ -1184,7 +1185,6 @@ font-weight: 500;
   background: rgba(0,0,0,0.4);
   margin: 0 auto;
   position: relative;
-  top: -50px;
 }
 
 .homepage__quotearea--text {
@@ -1663,6 +1663,7 @@ font-weight: 500;
   
   position: relative;
   width: 100%;
+  max-width: 1030px;
   background: white;
     -webkit-transition: border-color 200ms ease-in-out,-webkit-transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
   transition: border-color 200ms ease-in-out,transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0);
