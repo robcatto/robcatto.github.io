@@ -1860,7 +1860,7 @@ Media Queries
 		display: none;
 	}
 	
-	.feature_header h2 {
+	.feature_subheading {
 		display: none;
 	}
 	
@@ -1994,7 +1994,7 @@ Media Queries
 		display: none;
 	}
 	
-	.feature_header h3 {
+	.feature_subheading {
 		display: none;
 	}
 
