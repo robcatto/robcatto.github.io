@@ -1852,6 +1852,15 @@ Media Queries
 		margin-bottom: 0px;
 	}
 	
+	.feature_header svg {
+		display: none;
+	}
+	
+	.feature_header svg h2 {
+		display: none;
+	}
+	
+	
 	.mobile_section {
 		padding-bottom: 45px;
 	}
@@ -1971,6 +1980,10 @@ Media Queries
 	
 	.callout-card {
 		margin-bottom: 0px;
+	}
+	
+	.feature_header svg h2 {
+		display: none;
 	}
 
 .mobile_section {
