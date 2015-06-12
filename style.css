@@ -1853,11 +1853,11 @@ Media Queries
 	}
 	
 	.feature_heading {
-		color:#485159;
+		color:#485159 !important;
 	}
 	
 	.feature_header {
-		padding: 30px !important;
+		padding: 60px !important;
 	}
 	
 	.feature_header svg {
@@ -1991,11 +1991,11 @@ Media Queries
 	}
 	
 	.feature_heading {
-		color:#485159;
+		color:#485159; !important;
 	}
 	
 	.feature_header {
-		padding: 30px !important;
+		padding: 60px !important;
 	}
 	
 	.feature_header svg {
