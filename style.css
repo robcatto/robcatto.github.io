@@ -1855,6 +1855,10 @@ Media Queries
 	.mobile_section {
 		padding-bottom: 45px;
 	}
+	
+	.onelarge {
+		margin-bottom: 0px;
+	}
 
   .home__icons {
     top: 51px;
@@ -1967,6 +1971,10 @@ Media Queries
 
 .mobile_section {
 		padding-bottom: 45px;
+	}
+	
+	.onelarge {
+		margin-bottom: 0px;
 	}
 
 
