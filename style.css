@@ -1859,6 +1859,10 @@ Media Queries
 	.onelarge {
 		margin-bottom: 0px;
 	}
+	
+	#headerarea {
+		background-color: transparent !important;
+	}
 
   .home__icons {
     top: 51px;
