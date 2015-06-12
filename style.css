@@ -1847,6 +1847,10 @@ Media Queries
 }
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
+	
+	.callout-card {
+		margin-bottom: 0px;
+	}
 
   .home__icons {
     top: 51px;
@@ -1952,6 +1956,10 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+	
+	.callout-card {
+		margin-bottom: 0px;
+	}
 
 
 
