@@ -1284,6 +1284,10 @@ font-weight: 500;
   top: 8px;
   background-repeat: no-repeat;
   display: none;
+  height: 188px;
+  width: 238px;
+  background-size: contain;
+  top: 24px;
 }
 .desktop__logos--right {
   float: right;
@@ -1296,6 +1300,10 @@ font-weight: 500;
   background-repeat: no-repeat;
   right: 0;
   display: none;
+  height: 188px;
+  width: 238px;
+  background-size: contain;
+  top: 24px;
 }
 
 
