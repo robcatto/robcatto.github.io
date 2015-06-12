@@ -1852,6 +1852,10 @@ Media Queries
 		margin-bottom: 0px;
 	}
 	
+	.feature_heading {
+		color:#485159;
+	}
+	
 	.feature_header {
 		padding: 30px !important;
 	}
@@ -1984,6 +1988,10 @@ Media Queries
 	
 	.callout-card {
 		margin-bottom: 0px;
+	}
+	
+	.feature_heading {
+		color:#485159;
 	}
 	
 	.feature_header {
