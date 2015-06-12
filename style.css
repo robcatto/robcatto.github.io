@@ -1857,7 +1857,7 @@ Media Queries
 	}
 	
 	.feature_header {
-		padding: 60px !important;
+		padding: 60px 0px !important;
 	}
 	
 	.feature_header svg {
@@ -1991,11 +1991,11 @@ Media Queries
 	}
 	
 	.feature_heading {
-		color:#485159; !important;
+		color:#485159 !important;
 	}
 	
 	.feature_header {
-		padding: 60px !important;
+		padding: 60px 0px !important;
 	}
 	
 	.feature_header svg {
