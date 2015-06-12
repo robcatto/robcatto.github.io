@@ -1980,6 +1980,10 @@ Media Queries
 	.onelarge {
 		margin-bottom: 0px;
 	}
+	
+	#headerarea {
+		background-color: transparent !important;
+	}
 
 
   .welcome-card {
