@@ -1854,6 +1854,7 @@ Media Queries
 	
 	.feature_heading {
 		color:#485159 !important;
+		padding-top: 0px;
 	}
 	
 	.feature_header {
@@ -1992,6 +1993,7 @@ Media Queries
 	
 	.feature_heading {
 		color:#485159 !important;
+		padding-top: 0px;
 	}
 	
 	.feature_header {
