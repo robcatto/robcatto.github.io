@@ -1971,7 +1971,7 @@ Media Queries
     color: #657278;
 }
   h1 {font-size: 36px;}
-  h3 {font-size: 36px; padding-top: 35px;}
+  h3 {font-size: 26px; padding-top: 35px;}
   p {font-size: 16px;}
   #mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
@@ -2116,7 +2116,7 @@ Media Queries
     color: #657278;
 }
 	h1 {font-size: 36px;}
-	h3 {font-size: 36px; padding-top: 35px;}
+	h3 {font-size: 26px; padding-top: 35px;}
 	p {font-size: 16px;}
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
