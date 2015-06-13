@@ -1862,6 +1862,11 @@ Media Queries
 		margin-bottom: 0px;
 	}
 	
+	.nav-card {
+		margin-bottom: 31px;
+		margin-top: 0px;
+	}
+	
 	.feature_heading {
 		color:#485159 !important;
 		padding-top: 0px;
@@ -2000,6 +2005,11 @@ Media Queries
 	
 	.callout-card {
 		margin-bottom: 0px;
+	}
+	
+	.nav-card {
+		margin-bottom: 31px;
+		margin-top: 0px;
 	}
 	
 	.feature_heading {
