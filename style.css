@@ -1206,6 +1206,7 @@ font-weight: 500;
 }
 
 .homepage__imagetext::before {
+	content: "";
 	position: relative;
 	height: 40px;
 	width: 100%;
