@@ -1206,11 +1206,13 @@ font-weight: 500;
 }
 
 .homepage__slidetext {
-   width: 100%;
+  width: 100%;
   height: 50px;
-  background: red;
+  background: rgba(0,0,0,0.4);
   margin: 0 auto;
   position: relative;
+  top: -50px;
+  margin-bottom: -50px;
 }
 
 
