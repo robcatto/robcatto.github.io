@@ -563,13 +563,14 @@ p {
 }
 
 .profile-card {
-	 background-color: #D8D8D8;
-         background-size: cover;
-         background-position: center;
-         height: 81px;
-         border-radius: 5px;
-         margin-bottom: 30px;
-         margin-top: 40px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 81px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  /* margin-top: 40px; */
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
 }
 
 .icon-card {
