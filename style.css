@@ -1972,7 +1972,7 @@ Media Queries
 }
   h1 {font-size: 36px;}
   h3 {font-size: 26px; padding-top: 35px;}
-  .homeheading__h3 {font-size: 36;}
+  .homeheading__h3 {font-size: 36px;}
   p {font-size: 16px;}
   #mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
@@ -2118,6 +2118,7 @@ Media Queries
 }
 	h1 {font-size: 36px;}
 	h3 {font-size: 26px; padding-top: 35px;}
+	.homeheading__h3 {font-size: 36px;}
 	p {font-size: 16px;}
 	#mobile-nav-toggle {display: none;}
   .cmn-toggle-switch {display: none;}
