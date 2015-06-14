@@ -1981,7 +1981,7 @@ Media Queries
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
     #headerarea {padding: 83px 0px; margin-top: 80px; padding: 81px 0;}
   .nav__item--home {display: none;}
-  .header__logo {    width: 162px; margin-top: 0px; top: 25px;}
+  .header__logo {    width: 162px; margin-top: 0px; top: 27px;}
   .card {width: 49%; float: left; margin-right: 2%}
     .card:nth-child(2n+0) {margin-right: 0px;}
   #cardarea__wrap {width: 94%; margin: 0 auto;}
@@ -2127,7 +2127,7 @@ Media Queries
   .nav__item { float: left; font-size: 15px; margin-left: 40px; }
   #headerarea {padding: 83px 0px; margin-top: 80px; padding: 81px 0;}
   .header__desktop {display: block; height: 80px;}
-  .header__logo {    width: 162px; margin-top: 0px; top: 25px;}
+  .header__logo {    width: 162px; margin-top: 0px; top: 27px;}
   .header__logo:hover { fill: #EFB500;}
   .header__mobile {display: none;}
   #blurbarea {height: 80px;}
