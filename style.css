@@ -1890,8 +1890,8 @@ Media Queries
 	}
 
   .home__icons {
-    top: 51px;
-  left: 205px;
+    top: 70px;
+  left: 204px;
   position: relative;
   z-index: 9001;
   transition-delay: -50%;
