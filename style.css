@@ -1901,8 +1901,8 @@ Media Queries
   }
 
   .welcome-card {
-    width: 484px;
-    min-height: 251px;
+    width: 1000px;
+    min-height: 313px;
   }
 
   .icon-card {
@@ -2036,8 +2036,8 @@ Media Queries
 
 
   .welcome-card {
-    width: 484px;
-    min-height: 251px;
+    width: 1000px;
+    min-height: 313px;
   }
 
   .icon-card {
