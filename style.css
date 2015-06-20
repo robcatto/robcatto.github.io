@@ -620,6 +620,15 @@ p {
   transform: translateX(-50%);
 }
 
+.event_card {
+	background-color: white;
+  min-height: 280px;
+  padding: 25px 35px;
+  text-align: left;
+  box-sizing: border-box;
+  line-height: 2.2;
+}
+
 .event__heading {
 	margin:0px;
 	margin-bottom: 10px;
