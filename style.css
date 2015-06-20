@@ -626,11 +626,13 @@ p {
 }
 
 .event__meta {
-  font-family: "Gotham Rounded A", "Gotham Rounded B";	
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  color: rgba(154,165,170,0.5);
 }
 
 .event__info {
   font-family: "Gotham Rounded A", "Gotham Rounded B";	
+  color: #9AA5AA;
 }
 
 .button {
