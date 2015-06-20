@@ -586,6 +586,9 @@ p {
   min-height: 245px;
   }
 
+
+
+
 .callout-card {
   border-radius: 5px;
   background-color: #1F98CB;
@@ -615,6 +618,15 @@ p {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+
+.event__meta {
+  font-family: "Gotham Rounded A", "Gotham Rounded B";	
+}
+
+.event__info {
+  font-family: "Gotham Rounded A", "Gotham Rounded B";	
 }
 
 .button {
