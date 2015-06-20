@@ -573,6 +573,16 @@ p {
   box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
 }
 
+.profile-card-avatar {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 128px;
+  margin-top: -32px;
+}
+
 .icon-card {
     border-radius: 5px;
   background-color: #384047;
@@ -1836,6 +1846,9 @@ font-weight: 500;
 #cardarea__wrap > div:nth-child(6) > div {
   background-image: url(images/beginner-information.png)
 }
+
+
+
 
 
 
