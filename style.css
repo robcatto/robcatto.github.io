@@ -638,6 +638,19 @@ p {
   margin-right: 15px;
 }
 
+.event__button {
+  background-color: rgba(36, 171, 227,1);
+  color: white;
+  position: inherit;
+  display: inherit;
+  font-size: 16px;
+  border-color: rgba(36,171,227,1);
+  height: 45px;
+  line-height: 41px;
+  bottom: -15px;
+  box-shadow: 0px 2px 0px #1F98CB;
+}
+
 .button {
   box-sizing: border-box;
   -webkit-appearance: none;
