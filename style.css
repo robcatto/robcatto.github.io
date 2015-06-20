@@ -620,6 +620,10 @@ p {
   transform: translateX(-50%);
 }
 
+.event__heading {
+	margin:0px;
+	padding:0px;
+}
 
 .event__meta {
   font-family: "Gotham Rounded A", "Gotham Rounded B";	
