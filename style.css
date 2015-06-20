@@ -620,7 +620,7 @@ p {
   transform: translateX(-50%);
 }
 
-.event_card {
+.event__card {
 	background-color: white;
   min-height: 280px;
   padding: 25px 35px;
