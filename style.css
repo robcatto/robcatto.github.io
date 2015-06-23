@@ -538,6 +538,7 @@ p {
 	font-size: 17px;
 	width: 89.61352657%;
 	text-align: left;
+	max-width: 627px;
 }
 
 .feature_heading {
@@ -1941,6 +1942,7 @@ Media Queries
 	font-size: 21px;
 	width: 89.61352657%;
 	text-align: left;
+	max-width: 657px;
 }
 	
 	.left__aligned--p {
@@ -2112,6 +2114,7 @@ Media Queries
 	font-size: 21px;
 	width: 89.61352657%;
 	text-align: left;
+	max-width: 657px;
 }
 	
 	.left__aligned--p {
