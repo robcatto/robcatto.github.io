@@ -2016,6 +2016,19 @@ Media Queries
   box-sizing: border-box;
   }
   
+   .event--text {
+      width: 70%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+  
+  .event--picture {
+    width: 30%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;	
+  }
 
    .centered {
   float: none;
