@@ -637,6 +637,7 @@ p {
   text-align: left;
   box-sizing: border-box;
   line-height: 2.4;
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
 }
 
 .event__heading {
