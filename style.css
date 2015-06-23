@@ -876,14 +876,14 @@ featuresmedia="screen"
   }
   
    .event--text {
-      width: 70%;
+      width: 100%;
   float: left;
   padding: 0 15px;
   box-sizing: border-box;
   }
   
   .event--picture {
-    width: 30%;
+    width: 100%;
   float: left;
   padding: 0 15px;
   box-sizing: border-box;	
