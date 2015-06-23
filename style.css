@@ -541,6 +541,10 @@ p {
 	max-width: 627px;
 }
 
+.left__sub--para {
+	padding-top: 10px !important;
+}
+
 .feature_heading {
 	font-size: 36px;
 	padding-top: 25px;
