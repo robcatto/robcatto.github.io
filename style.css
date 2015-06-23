@@ -761,7 +761,7 @@ p {
 .event__button {
   background-color: rgba(36, 171, 227,1);
   color: white;
-  position: inherit !important;
+  position: relative !important;
   display: inherit;
   font-size: 16px;
   border-color: rgba(36,171,227,1);
@@ -769,6 +769,7 @@ p {
   line-height: 41px;
   bottom: -15px !important;
   box-shadow: 0px 2px 0px #1F98CB;
+  margin-bottom: 20px;
 }
 
 .features-toggle {
