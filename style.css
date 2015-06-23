@@ -2016,14 +2016,14 @@ Media Queries
   box-sizing: border-box;
   }
   
-   .event--text {
+   .eventtext {
       width: 70%;
   float: left;
   padding: 0 15px;
   box-sizing: border-box;
   }
   
-  .event--picture {
+  .eventpicture {
     width: 30%;
   float: left;
   padding: 0 15px;
