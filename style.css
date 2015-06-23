@@ -1938,7 +1938,7 @@ Media Queries
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
 		.heading__aligned--page {
-	font-size: 17px;
+	font-size: 21px;
 	width: 89.61352657%;
 	text-align: left;
 }
@@ -2109,7 +2109,7 @@ Media Queries
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
 	
 	.heading__aligned--page {
-	font-size: 17px;
+	font-size: 21px;
 	width: 89.61352657%;
 	text-align: left;
 }
