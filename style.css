@@ -531,6 +531,7 @@ p {
 .left__aligned--p {
 	max-width: 657px !important;
 	text-align: justify !important;
+	font-size: 14px;
 }
 
 .feature_heading {
@@ -1933,6 +1934,7 @@ Media Queries
 	.left__aligned--p {
 	max-width: 657px !important;
 	text-align: justify !important;
+	font-size: 16px;
 }
 	
 	.callout-card {
@@ -2097,6 +2099,7 @@ Media Queries
 	.left__aligned--p {
 	max-width: 657px !important;
 	text-align: justify !important;
+	font-size: 16px;
 }
 	
 	.callout-card {
