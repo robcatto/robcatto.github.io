@@ -528,6 +528,11 @@ p {
   	 
 }
 
+.left__aligned--p {
+	max-width: 627px !important;
+	text-align: justify;
+}
+
 .feature_heading {
 	font-size: 36px;
 	padding-top: 25px;
