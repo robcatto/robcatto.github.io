@@ -1308,8 +1308,12 @@ font-weight: 500;
   display: none;
 }
 
-.heading-info-crop {
+.hidemobile-showdesktop {
 	display: none;
+}
+
+.showmobile-hidedesktop {
+	display: initial;
 }
 
 .homepage__slidetext {
@@ -1961,8 +1965,12 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
-	.heading-info-crop {
+	.hidemobile-showdesktop {
 	display: initial;
+}
+
+.showmobile-hidedesktop {
+	display: none;
 }
 	
 		.homepage__imagetext {
@@ -2148,8 +2156,12 @@ Media Queries
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
 	
-	.heading-info-crop {
+.hidemobile-showdesktop {
 	display: initial;
+}
+
+.showmobile-hidedesktop {
+	display: none;
 }
 	
 	.homepage__imagetext {
