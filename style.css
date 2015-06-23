@@ -1317,7 +1317,7 @@ font-weight: 500;
 }
 
 .homepage-text-crop {
-	display: initial;
+	display: none;
 }
 
 .homepage__slidetext {
@@ -2173,7 +2173,7 @@ Media Queries
 }
 
 .homepage-text-crop {
-	display: none;
+	display: initial;
 }
 	
 	.homepage__imagetext {
