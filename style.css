@@ -665,12 +665,15 @@ p {
   font-family: "Gotham Rounded A", "Gotham Rounded B";
   color: rgba(154,165,170,0.5);
   margin-right: 15px;
+  white-space: nowrap;
 }
 
 .event__info {
   font-family: "Gotham Rounded A", "Gotham Rounded B";	
   color: #9AA5AA;
   margin-right: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 
