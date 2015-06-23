@@ -875,6 +875,20 @@ featuresmedia="screen"
     box-sizing: border-box;
   }
   
+   .event--text {
+      width: 70%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+  
+  .event--picture {
+    width: 30%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;	
+  }
+  
   .one {
   width: 100%;
   float: left;
@@ -2016,14 +2030,14 @@ Media Queries
   box-sizing: border-box;
   }
   
-   .eventtext {
+   .event--text {
       width: 70%;
   float: left;
   padding: 0 15px;
   box-sizing: border-box;
   }
   
-  .eventpicture {
+  .event--picture {
     width: 30%;
   float: left;
   padding: 0 15px;
@@ -2174,6 +2188,20 @@ Media Queries
   float: left;
   padding: 0 15px;
   box-sizing: border-box;
+  }
+  
+   .event--text {
+      width: 70%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  }
+  
+  .event--picture {
+    width: 30%;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;	
   }
 
   .centered {
