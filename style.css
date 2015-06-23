@@ -1308,6 +1308,10 @@ font-weight: 500;
   display: none;
 }
 
+.heading-info-crop {
+	display: none;
+}
+
 .homepage__slidetext {
   width: 100%;
   height: 67px;
@@ -1957,6 +1961,10 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.heading-info-crop {
+	display: block;
+}
+	
 		.homepage__imagetext {
   display: block;
 }
@@ -2139,6 +2147,10 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+	
+	.heading-info-crop {
+	display: block;
+}
 	
 	.homepage__imagetext {
   display: block;
