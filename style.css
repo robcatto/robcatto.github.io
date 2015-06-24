@@ -697,6 +697,7 @@ p {
   line-height: 12px;
   color: #b2bac2;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .event__card>a h3, .event__card>.title h3 {
