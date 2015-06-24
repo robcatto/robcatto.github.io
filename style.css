@@ -676,6 +676,13 @@ p {
   background: rgba(36, 171, 227,1);
 }
 
+.event__place {
+	color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .event__heading {
 	margin:0px;
 	margin-bottom: 10px;
