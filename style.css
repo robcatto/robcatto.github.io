@@ -677,10 +677,17 @@ p {
   background: rgba(36, 171, 227,1);
 }
 
+.event__difficulty {
+	color: #fff;
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .event__place {
 	color: #fff;
   float: right;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -689,7 +696,7 @@ p {
   margin: 0 0 8px;
   line-height: 12px;
   color: #b2bac2;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .event__card>a h3, .event__card>.title h3 {
