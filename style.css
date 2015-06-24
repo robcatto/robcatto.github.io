@@ -2043,6 +2043,10 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.event__picture {
+  border-radius: 150px;
+}
+	
 	.hidemobile-showdesktop {
 	display: inherit;
 }
