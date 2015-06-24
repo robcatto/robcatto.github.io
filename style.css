@@ -709,13 +709,14 @@ p {
 }
 
 .event__card>a p.description, .event__card>.title p.description {
-  color: #7f8a94;
+  color: #7f8a94 !important;
   position: relative;
   z-index: 0;
-  max-height: 40px;
+  max-height: 43px;
   font-size: 14px;
   overflow: hidden;
   margin: 0;
+  padding-top: 0px;
 }
 
 html.webkit .event__card>a p.description, html.webkit .event__card>.title p.description {
