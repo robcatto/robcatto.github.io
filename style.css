@@ -2062,15 +2062,16 @@ Media Queries
 }
 	
 	.event__picture {
-  background-size: cover;
+    background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 210px;
-  max-width: 210px;
-  top: 63px;
-  position: relative;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
-  border-radius: 150px;
+  min-height: 194px;
+  max-width: 290px;
+  top: 43px;
+  right: 25px;
+  position: absolute;
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
+  border-radius: 5px;
 }
 	
 	.hidemobile-showdesktop {
@@ -2276,15 +2277,16 @@ Media Queries
 }
 	
 		.event__picture {
-  background-size: cover;
+   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 210px;
-  max-width: 210px;
-  top: 63px;
-  position: relative;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
-  border-radius: 150px;
+  min-height: 194px;
+  max-width: 290px;
+  top: 43px;
+  right: 25px;
+  position: absolute;
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
+  border-radius: 5px;
 }
 	
 .hidemobile-showdesktop {
