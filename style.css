@@ -1427,6 +1427,7 @@ font-weight: 500;
 
 .event__card--h3 {
    text-align: left;
+   margin-left: 15px;
    
 }
 
@@ -2059,6 +2060,12 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.event__card--h3 {
+   text-align: left;
+   margin-left: 25px;
+   
+}
+	
 	.event__card--p {
  
   padding: 15px 25px;
@@ -2272,6 +2279,12 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+	
+		.event__card--h3 {
+   text-align: left;
+   margin-left: 25px;
+   
+}
 	
 		.event__card--p {
  
