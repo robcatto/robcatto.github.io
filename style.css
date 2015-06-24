@@ -693,7 +693,7 @@ p {
 
 .event__card>a strong, .event__card>.title strong {
   display: block;
-  margin: 0 0 16px;
+  margin: 0 0 20px;
   line-height: 12px;
   color: #b2bac2;
   font-size: 16px;
@@ -704,7 +704,7 @@ p {
   color: #5a6772;
   font-size: 18px;
   line-height: 24px;
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   padding-top: 0px;
 }
 
