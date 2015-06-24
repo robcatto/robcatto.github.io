@@ -673,6 +673,7 @@ p {
   left: 0;
   right: 0;
   padding: 0 30px;
+  background: rgba(36, 171, 227,1);
 }
 
 .event__heading {
