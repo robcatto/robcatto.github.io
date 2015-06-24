@@ -660,6 +660,7 @@ p {
   min-height: 310px;
   padding: 87px 30px 30px;
   position: relative;
+  text-align: left;
 }
 
 .event__card>a div.progress, .event__card>.title div.progress {
