@@ -2054,6 +2054,13 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.event__card--p {
+ 
+  padding: 15px 25px;
+  margin-bottom: 35px;
+ 	
+}
+	
 	.event__picture {
   background-size: cover;
   background-position: center;
@@ -2260,6 +2267,13 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+	
+		.event__card--p {
+ 
+  padding: 15px 25px;
+  margin-bottom: 35px;
+ 	
+}
 	
 		.event__picture {
   background-size: cover;
