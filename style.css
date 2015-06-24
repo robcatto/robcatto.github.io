@@ -662,6 +662,19 @@ p {
   position: relative;
 }
 
+.event__card>a div.progress, .event__card>.title div.progress {
+  position: absolute;
+  border-radius: 4px 4px 0 0;
+  color: #fff;
+  display: block;
+  height: 57px;
+  line-height: 57px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+}
+
 .event__heading {
 	margin:0px;
 	margin-bottom: 10px;
