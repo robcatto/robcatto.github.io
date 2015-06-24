@@ -1425,6 +1425,11 @@ font-weight: 500;
   max-width: 523px;
 }
 
+.event__card--h3 {
+   text-align: left;
+   
+}
+
 .event__card--p {
    font-size: 16px;
   line-height: 1.7;
@@ -2070,7 +2075,6 @@ Media Queries
   top: 43px;
   right: 25px;
   position: absolute;
-  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
   border-radius: 5px;
 }
 	
@@ -2285,7 +2289,6 @@ Media Queries
   top: 43px;
   right: 25px;
   position: absolute;
-  box-shadow: 0px 2px 0px rgba(0,0,0,0.03);
   border-radius: 5px;
 }
 	
