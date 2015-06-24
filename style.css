@@ -708,6 +708,22 @@ p {
   padding-top: 0px;
 }
 
+.event__card>a p.description, .event__card>.title p.description {
+  color: #7f8a94;
+  position: relative;
+  z-index: 0;
+  max-height: 40px;
+  font-size: 14px;
+  overflow: hidden;
+  margin: 0;
+}
+
+html.webkit .event__card>a p.description, html.webkit .event__card>.title p.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 .event__heading {
 	margin:0px;
 	margin-bottom: 10px;
