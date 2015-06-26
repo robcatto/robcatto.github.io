@@ -787,7 +787,7 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
   padding: 30px;
 }
 
-.large-outline h3 p {
+.large-outline > h3 p {
 	margin: 0 !important;
 	padding: 0 !important;
 	line-height: 1.6 !important;
