@@ -764,6 +764,12 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
   border-radius: 5px;
 }
 
+.event__split {
+	min-height: 50px;
+	margin-top: 28px;
+	margin-left: 25px;
+}
+
 .button {
   box-sizing: border-box;
   -webkit-appearance: none;
