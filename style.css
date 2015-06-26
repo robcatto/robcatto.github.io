@@ -788,10 +788,10 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
 }
 
 .large-outline h3 p {
-	margin: 0;
-	padding: 0;
-	line-height: 1.6;
-	font-size: 16px;
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
 }
 
 .button {
