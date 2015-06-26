@@ -787,7 +787,14 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
   padding: 30px;
 }
 
-.large-outline > h3 p {
+.large-outline h3 {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+}
+
+.large-outline p {
 	margin: 0 !important;
 	padding: 0 !important;
 	line-height: 1.6 !important;
@@ -2112,6 +2119,20 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.large-outline h3 {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+}
+
+.large-outline p {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+}
+	
 	.event__split--border {
 		border-left: 1px solid rgba(0,0,0,0.1);
 	}
@@ -2341,6 +2362,21 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+	
+	.large-outline h3 {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+	font-weight: 500;
+}
+
+.large-outline p {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+}
 	
 	.event__split--border {
 		border-left: 1px solid rgba(0,0,0,0.1);
