@@ -2079,6 +2079,11 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.event__card--box {
+  margin-right: auto;
+  margin-left: auto;
+}
+	
 	.event__card--h3 {
    text-align: left;
    margin-left: 25px;
