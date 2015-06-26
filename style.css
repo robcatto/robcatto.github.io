@@ -1443,6 +1443,24 @@ font-weight: 500;
   max-width: 523px;	
 }
 
+.event__card--box {
+  max-width: 920px;
+  background-color: white;
+  height: 265px;
+  margin: 0 auto;
+  margin-top: 35px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-image: url(http://www.discoverxcski.com/images/box-theme-strip.png);
+  background-size: 100% 8px;
+  clear:both;
+  margin-top: 35px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 
 .feature_header {
 	margin-bottom: 0px !important;
