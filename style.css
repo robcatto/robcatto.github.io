@@ -785,6 +785,7 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
   border: solid 2px #F0F0F0;
   margin-bottom: 30px;
   padding: 30px;
+  text-align: left;
 }
 
 .large-outline h3 {
@@ -792,6 +793,7 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
 	padding: 0 !important;
 	line-height: 1.6 !important;
 	font-size: 16px !important;
+	width: 100% !important;
 }
 
 .large-outline p {
@@ -799,6 +801,7 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
 	padding: 0 !important;
 	line-height: 1.6 !important;
 	font-size: 16px !important;
+	width: 100% !important;
 }
 
 .button {
@@ -2124,6 +2127,7 @@ Media Queries
 	padding: 0 !important;
 	line-height: 1.6 !important;
 	font-size: 16px !important;
+	width: 100% !important;
 }
 
 .large-outline p {
@@ -2131,6 +2135,7 @@ Media Queries
 	padding: 0 !important;
 	line-height: 1.6 !important;
 	font-size: 16px !important;
+	width: 100% !important;
 }
 	
 	.event__split--border {
@@ -2369,6 +2374,7 @@ Media Queries
 	line-height: 1.6 !important;
 	font-size: 16px !important;
 	font-weight: 500;
+	width: 100% !important;
 }
 
 .large-outline p {
@@ -2376,6 +2382,7 @@ Media Queries
 	padding: 0 !important;
 	line-height: 1.6 !important;
 	font-size: 16px !important;
+	width: 100% !important;
 }
 	
 	.event__split--border {
