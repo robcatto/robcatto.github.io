@@ -772,6 +772,14 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
 	margin-left: 25px;
 }
 
+.event__split--border {
+	
+  margin-left: -25px;
+  padding-left: 25px;
+  margin-top: 25px;
+  padding-right: 25px;
+}
+
 .button {
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -2090,6 +2098,10 @@ Media Queries
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
 	
+	.event__split--border {
+		border-left: 1px solid rgba(0,0,0,0.1);
+	}
+	
 	.event__card--box {
   margin-right: 35px;
   margin-left: 35px;
@@ -2315,6 +2327,10 @@ Media Queries
 }
 
 @media screen and (min-width: 1140px) and (max-width: 4000px) {
+	
+	.event__split--border {
+		border-left: 1px solid rgba(0,0,0,0.1);
+	}
 	
 		.event__card--box {
   margin-right: 35px;
