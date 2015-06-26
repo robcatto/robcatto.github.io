@@ -780,6 +780,13 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
   padding-right: 25px;
 }
 
+.large-outline {
+  border-radius: 5px;
+  border: solid 2px #e9f0f3;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
 .button {
   box-sizing: border-box;
   -webkit-appearance: none;
