@@ -2240,9 +2240,8 @@ Media Queries
   background-position: center;
   width: 100%;
   min-height: 194px;
-  max-width: 290px;
+  max-width: 230px;
   top: 43px;
-  right: 25px;
   position: absolute;
   border-radius: 5px;
 }
