@@ -781,6 +781,46 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
   padding-right: 25px;
 }
 
+.topic-filter a:before, .topic-filter a:after {
+    content: " ";
+    display: table;
+}
+
+.topic-filter a {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.07);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.topic-android .topic-filter-cover {
+    background-color: #5cb860;
+}
+
+.topic-filter a span {
+    display: block;
+    color: #384047;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 20px 10px;
+}
+
+.topic-filter a:after {
+    clear: both;
+}
+
+.topic-filter a:before, .topic-filter a:after {
+    content: " ";
+    display: table;
+}
+
 .faq__heading {
 	  text-align: center;
   padding-top: 20px;
