@@ -796,6 +796,7 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
     text-align: center;
     -webkit-transition: 0.2s;
     transition: 0.2s;
+    margin-top: 40px;
 }
 
 .topic-filter-cover {
