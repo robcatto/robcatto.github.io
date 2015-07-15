@@ -798,6 +798,16 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
     transition: 0.2s;
 }
 
+.topic-filter-cover {
+    height: 142px;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 5px 5px 0 0;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
 .topic-android .topic-filter-cover {
    
 }
