@@ -614,7 +614,7 @@ p {
   min-height: 245px;
   }
   
-  .button-disabled {
+  .disabled__button {
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
