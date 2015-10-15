@@ -2243,11 +2243,8 @@ Media Queries
 }
 
 .small {
-    font-size: 12px;
-    font-weight: 600;
-  height: 38px;
-  line-height: 34px;
-  padding: 0 11px;
+    
+  padding: 0 11px !important;
 }
 	
 	.large-outline h3 {
