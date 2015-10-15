@@ -986,7 +986,7 @@ html.webkit .event__card>a p.description, html.webkit .event__card>.title p.desc
     font-weight: 600;
   height: 38px;
   line-height: 34px;
-  padding: 0 20px;
+  padding: 0 26px;
 }
 
 .event__button {
@@ -2240,6 +2240,14 @@ Media Queries
 
   	padding-top: 0px;
   	
+}
+
+.small {
+    font-size: 12px;
+    font-weight: 600;
+  height: 38px;
+  line-height: 34px;
+  padding: 0 11px;
 }
 	
 	.large-outline h3 {
