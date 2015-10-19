@@ -14,6 +14,10 @@ Tags: ausxc
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+ 
+ #cf_alert_div {
+ 	display: none;
+ }
 
 html {
   font-family: sans-serif; /* 1 */
