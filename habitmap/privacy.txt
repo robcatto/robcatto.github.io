@@ -1,0 +1,19 @@
+HabitMap Privacy Policy
+Effective date: 20 June 2026
+
+HabitMap is a habit tracking app by Robert Catto-Smith. This policy explains how HabitMap handles information.
+
+Data stored on your device
+HabitMap stores your habits, habit notes, colours, icons, streak goals and completion history locally on your device. If widgets are enabled, this information is shared with the HabitMap widget using the app group on your device.
+
+Purchases
+HabitMap uses Apple in-app purchases and RevenueCat to unlock premium access, manage subscription status and restore purchases. RevenueCat may receive purchase identifiers, transaction status and an anonymous app user identifier needed to provide the purchase service.
+
+No tracking
+HabitMap does not use third-party advertising, does not sell personal data, and does not track you across apps or websites.
+
+Support
+If you contact support, we will use the information you provide only to respond to your request.
+
+Contact
+Email: cattosmith@gmail.com
